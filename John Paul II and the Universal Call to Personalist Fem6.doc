@@ -1,0 +1,498 @@
+{\rtf1\ansi \deflang1033\deff0{\fonttbl
+{\f0\froman \fcharset0 \fprq2 Times New Roman;}{\f1\fmodern \fcharset0 \fprq1 Courier New;}{\f2\fswiss \fcharset0 \fprq2 Arial;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue0;
+\red0\green0\blue255;\red128\green0\blue128;\red255\green0\blue0;}
+{\stylesheet{\fs20 \snext0 Normal;}
+{\s1 \qj\tx0\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640 _17;}
+{\s2 \qj\fi-720\li1440\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640 _16;}
+{\s3 \qj\li2160\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640 _15;}
+{\s4 \qj\li2880\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640 _14;}
+{\s5 \qj\li3600\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640 _13;}
+{\s6 \qj\li4320\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640 _12;}
+{\s7 \qj\li5040\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640 _11;}
+{\s8 \qj\li5760\tx5760\tx6480\tx7200\tx7920\tx8640 _10;}
+{\s9 \qj\li-1440 \b Level 9;}
+{\*\cs10 \additive\fs20 Default Para;}
+{\*\ds11 ;}
+{\*\ds12 ;}
+{\s13 \qj _26;}
+{\s14 \qj\fi-720\li1440\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640 _25;}
+{\s15 \qj\li2160\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640 _24;}
+{\s16 \qj\li2880\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640 _23;}
+{\s17 \qj\li3600\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640 _22;}
+{\s18 \qj\li4320\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640 _21;}
+{\s19 \qj\li5040\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640 _20;}
+{\s20 \qj\li5760\tx5760\tx6480\tx7200\tx7920\tx8640 _19;}
+{\s21 \qj\li6480\tx6480\tx7200\tx7920\tx8640 _18;}
+{\s22 \qj\li6480\tx6480\tx7200\tx7920\tx8640 _9;}
+{\s23 \qj\tx0\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640 _8;}
+{\s24 \qj\fi-720\li1440\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640 _7;}
+{\s25 \qj\li2160\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640 _6;}
+{\s26 \qj\li2880\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640 _5;}
+{\s27 \qj\li3600\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640 _4;}
+{\s28 \qj\li4320\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640 _3;}
+{\s29 \qj\li5040\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640 _2;}
+{\s30 \qj\li5760\tx5760\tx6480\tx7200\tx7920\tx8640 _1;}
+{\s31 \qj\li6480\tx6480\tx7200\tx7920\tx8640 _;}
+{\s32 Normal;}
+{\s33 Definition T;}
+{\s34 \qj\li360\tx360\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640 Definition L;}
+{\*\cs35 \additive\i Definition;}
+{\s36 \b\fs48 H1;}
+{\s37 \b\fs36 H2;}
+{\s38 \b\fs28 H3;}
+{\s39 \b H4;}
+{\s40 \b H5;}
+{\s41 \b\fs16 H6;}
+{\s42 \i Address;}
+{\s43 \qj\li360\ri360\tx360\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640 Blockquote;}
+{\*\cs44 \additive\i CITE;}
+{\*\cs45 \additive\f1 CODE;}
+{\*\cs46 \additive\i Emphasis;}
+{\*\cs47 \additive\ul\cf3 Hyperlink;}
+{\*\cs48 \additive\ul\cf4 FollowedHype;}
+{\*\cs49 \additive\b\f1 Keyboard;}
+{\s50 \qj\tx0\tx958\tx1917\tx2876\tx3835\tx4794\tx5754\tx6712\tx7671\tx8630\tx9356 \f1 Preformatted;}
+{\s51 \qc \brdrt\brdrdb\brdrw6\brdrcf2 \f2\fs16 zBottom of ;}
+{\s52 \qc \brdrb\brdrdb\brdrw6\brdrcf2 \f2\fs16 zTop of For;}
+{\*\cs53 \additive\f1 Sample;}
+{\*\cs54 \additive\b Strong;}
+{\*\cs55 \additive\f1 Typewriter;}
+{\*\cs56 \additive\i Variable;}
+{\*\cs57 \additive\v \additive\v\cf5 HTML Markup;}
+{\*\cs58 \additive \additive Comment;}
+}{\info{\author rmlemmons}{\operator rmlemmons}
+}
+\ftnrstcont\notabind\margl1440\margr1440\hyphhotz1\ftnbj\fet2\ftnrstcont\aftnnar\viewkind1\lytprtmet\subfontbysize \sectd \sbknone\margtsxn1920\pgndec\headery1440\footery1440\titlepg\facingp 
+{\headerr {
+\posxr\nowrap \plain \fs26 \fs26 {\field{\*\fldinst { PAGE  }}}\par}
+\pard \fs24\qr 
+{\plain \fs22 \f2\fs22 \chpgn }{\plain \fs24 \par }\par
+}
+{\headerf {
+\posxr\nowrap \plain \fs26 \fs26 {\field{\*\fldinst { PAGE  }}}\par}
+\pard \fs24\qr 
+{\plain \fs22 \f2\fs22 \chpgn }{\plain \fs24 \par }\par
+}
+{\headerl {
+\posxr\nowrap \plain \fs26 \fs26 {\field{\*\fldinst { PAGE  }}}\par}
+\pard \fs24\qr 
+{\plain \fs22 \f2\fs22 \chpgn }{\plain \fs22 \v\f2\fs22 }{\plain \fs22 \f2\fs22 }{\plain \fs24 \par }\par
+}
+{\footerr }
+{\footerf }
+{\footerl }
+{\*\pnseclvl1\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl2\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl3\pnlcrm\pnstart1{\pntxta .}}
+{\*\pnseclvl4\pndec\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl5\pnlcltr\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl6\pnlcrm\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl8\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl9\pnlcrm\pnstart1}
+
+{\field{\*\fldinst {\lang4105  SEQ CHAPTER \\h \\r 1}}{\fldrslt }}\pard \fs26
+{\plain \fs26 \b\fs26 \tab \tab }{\plain \fs26 \fs26 \par
+}{\plain \fs26 \fs26 \par
+}{\plain \fs26 \fs26 \par
+}{\plain \fs26 \fs26 \par
+}\pard \fs26\qc 
+{\plain \fs26 \b\fs26 John Paul II and the Universal Call to Personalist Feminism }{\plain \fs26 \fs26 \par
+}{\plain \fs26 \fs26 \line }{\plain \fs26 \b\fs26 \par
+}{\plain \fs26 \b\fs26 R. Mary Hayden Lemmons, Ph.D.}{\plain \fs26 \fs26 \par
+}{\plain \fs26 \b\fs26 University of St. Thomas}{\plain \fs26 \fs26 \par
+}\pard \fs26
+{\plain \fs26 \fs26  \par
+}{\plain \fs26 \fs26 \par
+}{\plain \fs26 \fs26 \tab }{\plain \fs20 \fs20 Contemporary culture is convinced that the Catholic Church oppresses women insofar as the fulfillment of \softline
+women is deemed to require abortion and no distinction between gender roles.{}{\plain \fs24 \super 1{\footnote \pard \fs20\sa240 
+{\plain \fs24 \super 1}{}{\plain \fs24 }{\plain \fs20 \fs20 Consider, for instance,  the United State Supreme Court{\u8217\'92}s decision in }{\plain \fs20 \i\fs20 Casey: }{\plain \fs20 \fs20 "the ability of women to participate \softline
+equally in the economic and social life of the Nation has been facilitated by their ability to control their reproductive \softline
+lives" [through abortion]. }{\plain \fs20 \i\fs20 Planned Parenthood of Southeastern Pennsylvania v. Casey. }{\plain \fs20 \fs20 505 U.S. 833 (U.S. Supreme \softline
+Court, 1992).}}}
+}{\plain \fs20 \fs20  But the Church would be oppressing \softline
+women only if the Church were not calling all to honor the basic truths about women. This paper examines these \softline
+basic truths as formulated by John Paul II in order to ascertain whether all are called to be personalist feminists.\par
+}{\plain \fs20 \fs20 \par
+}{\plain \fs20 \b\fs20 First truth: Men and Women are Equals\par
+}{\plain \fs20 \fs20 \tab In his Apostolic Letter, }{\plain \fs20 \i\fs20 On the Dignity and Vocation of Women }{\plain \fs20 \fs20 (}{\plain \fs20 \i\fs20 Mulieris Dignitatem, }{\plain \fs20 \fs20 hereafter }{\plain \fs20 \i\fs20 MD}{\plain \fs20 \fs20 ), John \softline
+Paul II points out that the absolute equality of men and women }{\plain \fs20 \fs20 is required by }{\plain \fs20 \i\fs20 Genesis}{\plain \fs20 \fs20  1:27: {\u8220\'93}God created man in His \softline
+own image, in the image of God He created him; male and female He created them.{\u8221\'94}{}{\plain \fs24 \super 2{\footnote \pard \fs24\sa240 
+{\plain \fs24 \super 2}{}{\plain \fs24 }{\plain \fs20 \i\fs20 Mulieris Dignitatem}{\plain \fs20 \fs20  n.6: {\u8220\'93}At this point, however, we can say that the biblical account puts forth the truth about the \softline
+personal character of the human being. }{\plain \fs20 \i\fs20 Man is a person, man and woman equally so,}{\plain \fs20 \fs20  since both were created in the \softline
+image and likeness of the personal God.{\u8221\'94}}}}
+}{\plain \fs20 \i\super\fs20 }{\plain \fs20 \i\fs20   }{\plain \fs20 \fs20 Sexual equality is not only \softline
+required by this text, it is also required by the theology of imaging God. For }{\plain \fs20 \i\fs20 Genesis}{\plain \fs20 \fs20  1:27 claims not only that men \softline
+and women equally image God, but that they also image Him as male and female. It is thus not necessary to be the \softline
+same in order to be equal in being an image of God. John Paul II also argues that Christ affirms the equality of \softline
+woman.{}{\plain \fs24 \super 3{\footnote \pard \fs24\sa240 
+{\plain \fs24 \super 3}{}{\plain \fs24 }{\plain \fs20 \i\fs20 Mulieris Dignitatem }{\plain \fs20 \fs20 n. 25: {\u8220\'93}Meditating on what the Gospels say about Christ{\u8217\'92}s attitude towards women, we can \softline
+conclude that as a man, a son of Israel, he revealed the dignity of the {\u8220\'93}daughters of Abraham{\u8221\'94} (cf. Lk 13:16), the \softline
+dignity belonging to women from the very {\u8220\'93}beginning{\u8221\'94} on an equal footing with men.{\u8221\'94} [sic]. For an elaboration of \softline
+what I call {\u8220\'93}the gender mission of Christ{\u8221\'94} see {\u8220\'93}Equality, Gender and John Paul II,{\u8221\'94} }{\plain \fs20 \i\fs20 Logos: A Journal of Catholic \softline
+Thought and Culture}{\plain \fs20 \fs20  5:3 (2002): 111-130. For a more popular treatment see {\u8220\'93}Priesthood and the Masculinity of \softline
+Christ{\u8221\'94} on-line at CatholicCulture.org at }{\plain \fs20 \fs20  }{\plain \fs20 \fs20 http://www.catholicculture.org/culture/library/view.cfm?recnum=6586.}}}
+}{\plain \fs20 \fs20 }{\plain \fs20 \fs20 \par
+}{\plain \fs20 \fs20 \tab \par
+}{\plain \fs20 \b\fs20 Second truth: Women and Men Find Fulfillment in and through Love{}{\plain \fs24 \super 4{\footnote \pard \fs20\sa240 
+{\plain \fs24 \super 4}{}{\plain \fs24 }{\plain \fs20 \fs20 This section and the next draw heavily from my {\u8220\'93}Equality, Gender, and John Paul II,{\u8221\'94} }{\plain \fs20 \i\fs20 Logos: A Journal of Catholic \softline
+Thought and Culture}{\plain \fs20 \fs20  5:3 (2002): 111-130.}}}
+}{\plain \fs20 \b\fs20 }{\plain \fs20 \fs20 \par
+}{\plain \fs20 \fs20 \tab }{\plain \fs20 \i\fs20 Genesis}{\plain \fs20 \fs20  does not only proclaim sexual equality but it also proclaims that sexuality is designed for a \softline
+heterosexual union able to image God. How so? John Paul II explains: \par
+}\pard \fs20\li720\tx0\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\tqr\tx9360 
+{\plain \fs20 \fs20 If  . . . we wish to draw also from the narrative of the Yahwist text the concept of {\u8220\'93}image of God,{\u8221\'94} we can 
+then deduce that man became the {\u8220\'93}image and likeness{\u8221\'94} of God not only through his own humanity, but also \softline
+through the communion of persons which man and woman form right from the beginning. The function of \softline
+the image is to reflect the one who is the model, to reproduce its own prototype. Man becomes the image of \softline
+God not so much in the moment of solitude as in the moment of communion. He is . . . essentially an image \softline
+of the inscrutable divine communion of Persons.{}{\plain \fs24 \super 5{\footnote \pard \fs24\sa240 
+{\plain \fs24 \super 5}{}{\plain \fs24 }{\plain \fs18 \i\fs18 The General Audience}{\plain \fs18 \fs18  of Nov. 14, 1979 pp. 73-74 in }{\plain \fs18 \i\fs18 Original Unity of Man and Woman, }{\plain \fs18 \fs18 Boston: Daughters of St. Paul, 1981, \softline
+n. 3.}}}
+}{\plain \fs20 \super\fs20 }{\plain \fs20 \fs20 \tab \tab \par
+}\pard \fs20\tx0\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\tqr\tx9360
+{\plain \fs20 \fs20 Accordingly, heterosexual love and spousal oneness image nothing less than the love and oneness of the Trinity, \softline
+wherein the distinction of persons{\u8212\'97}and roles---preclude neither unity nor equality. As a result, any inequality \softline
+between man and woman would distort this sacred Trinitarian image. \par
+}{\plain \fs20 \fs20 \tab The spousal unification in love excels in imaging the triune God in the following ways: (1) by being a unit \softline
+of }{\plain \fs20 \i\fs20 distinct }{\plain \fs20 \fs20  equals; (2) by being a unit constituted by love; and (3) by being fertile in the generation of new life.{}{\plain \fs24 \super 6{\footnote \pard \fs24\sa240 
+{\plain \fs24 \super 6}{}{\plain \fs24 }{\plain \fs20 \fs20 {\u8220\'93}The distinction and reciprocity of the human couple are a sign of God{\u8217\'92}s love not only as the basis of a vocation to \softline
+communion, but also for the purpose of procreative fruitfulness.{\u8221\'94} John Paul II, General Audience of Feb. 7}{\plain \fs20 \super\fs20 th}{\plain \fs20 \fs20 , 2001, \softline
+n. 4.}}}
+}{\plain \fs20 \super\fs20 }{\plain \fs20 \fs20    In \softline
+this way, the loving heterosexual marriage not only images the Godhead but also His life of love. We live to love.{}{\plain \fs24 \super 7{\footnote \pard \fs24\sa240 
+{\plain \fs24 \super 7}{}{\plain \fs24 }{\plain \fs20 \fs20 Cf}{\plain \fs20 \i\fs20 . Fides et Ratio}{\plain \fs20 \fs20  n. 7: {\u8220\'93}As the source of love, God desires to make himself known; and the knowledge which the \softline
+human being has of God perfects all that the human mind can know of the meaning of life.{\u8221\'94}}}}
+}{\plain \fs20 \super\fs20 }{\plain \fs20 \fs20  \par
+}{\plain \fs20 \fs20 \tab Hence, the human vocation to love in the image of the Trinity bestows upon femininity and masculinity \softline
+their proper meanings: self-transcendence through a fruitful love between distinct equals. This is the nuptial meaning \softline
+of the human body: sexuality is for facilitating a fruitful Trinitarian-like love. Sex is for self-giving love. This is not \softline
+to say however that sexual love is the fulfillment of love. It is rather to say that the fulfillment of love is finding a \softline
+way to seek the good of others. The second basic truth is thus that women }{\plain \fs20 \fs20 (and men), find fulfillment in and through \softline
+love.\par
+}{\plain \fs20 \fs20 \par
+}{\plain \fs20 \b\fs20 Third basic truth: Male Oppression of Women Continues}{\plain \fs20 \fs20 \par
+}{\plain \fs20 \fs20 \tab John Paul II argues that due to Original Sin, men routinely oppress women and that Christ accordingly \softline
+sought to restore woman to the equality, respect and dignity that was hers in the beginning, that is, before Original \softline
+Sin.{}{\plain \fs24 \super 8{\footnote \pard \fs20\sa240 
+{\plain \fs24 \super 8}{}{\plain \fs24 }{\plain \fs20 \i\fs20 Mulieris Dignitatem}{\plain \fs20 \fs20  n. 15: {\u8220\'93}Christ{\u8217\'92}s affirmation of the equality and dignity of woman, through . . .the Gospel of His \softline
+words and deed, is a consistent protest against whatever offends the dignity of women.{\u8221\'94} Hence, the surprise and the \softline
+dismay of others recorded in Jn 4:27 and Lk 7:39; hence also, the revolutionary character of his teaching against \softline
+stoning women adulterers, divorce and lust recorded  in Jn 8:3-11, Mt. 19:3-8 and Mt 5:28, respectively.}}}
+}{\plain \fs20 \fs20  Original Sin, moreover, not only ruptured the relationship of human beings to God but also the relationship \softline
+between men and women. }{\plain \fs20 \i\fs20 Genesis}{\plain \fs20 \fs20  3:16 is quite explicit that some penalties of Original Sin are gender-specific, \softline
+affecting even the spousal union of love:  {\u8220\'93}Your desire shall be for your husband, and he shall rule over you.{\u8221\'94}  In \softline
+other words, Original Sin left woman with the desire to close her love in upon her husband and make him the source \softline
+of her happiness, while Original Sin left men with the desire to dominate women. Yielding to either desire is the \softline
+wellspring of sexual inequality and oppression. \par
+}{\plain \fs20 \fs20 \tab The gender ramifications of Original Sin have yet to be fully recognized. Even some Christian marriages \softline
+embody spousal inequality by unilaterally subordinating the wife to the husband.  In this regard, two passages are \softline
+cited most frequently:}{\plain \fs20 \i\fs20  Genesis}{\plain \fs20 \fs20  2:18-25 in which God declares that Adam will receive a helper fit for him; and }{\plain \fs20 \i\fs20 Eph.}{\plain \fs20 \fs20  \softline
+5:22-23 in which wives are told to be submissive to their husbands.  Being a helper and being submissive can be \softline
+understood either as a gender role peculiar to wives or as a spousal role common to both men and women. The first \softline
+interpretation establishes an inequality that contradicts the equality required by }{\plain \fs20 \i\fs20 Genesis}{\plain \fs20 \fs20  1:27. It also misunderstands \softline
+the story of Adam and Eve. According to John Paul II, the }{\plain \fs20 \i\fs20 Genesis}{\plain \fs20 \fs20  text that brings woman forth from Adam{\u8217\'92}s rib 
+confirms her equality.{}{\plain \fs24 \super 9{\footnote \pard \fs24\sa240 
+{\plain \fs24 \super 9}{}{\plain \fs24 }{\plain \fs20 \i\fs20 Mulieris Dignitatem  }{\plain \fs20 \fs20 n. 6: {\u8220\'93}The biblical text provides sufficient bases for recognizing the essential equality of man \softline
+and woman from the point of view of their humanity.}{\plain \fs16 \super\fs16 24}{\plain \fs20 \fs20 {\u8221\'94} [Footnote 24: {\u8220\'93}Among the Fathers of the Church who affirm \softline
+the fundamental equality of man and woman . . . Origen . . .Clement of Alexandria . . .St. Augustine . . .{\u8221\'94}]}}}
+}{\plain \fs20 \super\fs20 }{\plain \fs20 \fs20   Taking these texts as his guide, John Paul II argues that the Scriptural texts identifying the \softline
+wife as helper and as submissive are to be understood as identifying spousal roles, rather than gender roles. As such, \softline
+these texts require not only the man to be the wife{\u8217\'92}s helper,{}{\plain \fs24 \super 10{\footnote \pard \fs24\sa240 
+{\plain \fs24 \super 10}{}{\plain \fs24 }{\plain \fs20 \i\fs20 Mulieris Dignitatem}{\plain \fs20 \fs20   n. 7.}}}
+}{\plain \fs20 \super\fs20 }{\plain \fs20 \fs20  but also to be submissive to her in Christ.{}{\plain \fs24 \super 11{\footnote \pard \fs24\sa240\sl480\slmult1 
+{\plain \fs24 \super 11}{}{\plain \fs24 }{\plain \fs20 \i\fs20 Mulieris Dignitatem}{\plain \fs20 \fs20   n. 24.}}}
+}{\plain \fs20 \super\fs20 }{\plain \fs20 \fs20  In the \softline
+words of John Paul II: \par
+}\pard \fs20\li720\tx0\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\tqr\tx9360 
+{\plain \fs20 \fs20 The author of the Letter to the Ephesians . . . {\u8216\'91}Wives, be subject to your husbands, as to the Lord. For the \softline
+husband is the head of the wife{\u8217\'92} (5:22-23) . . . knows that this way of speaking, so profoundly rooted in the \softline
+customs and religious tradition of the time, is to be understood and carried out in a new way: as a {\u8220\'93}}{\plain \fs20 \i\fs20 mutual \softline
+subjection out of reverence for Christ{\u8221\'94}}{\plain \fs20 \fs20  (cf. Eph. 5:21). . . . in the relationship between husband and wife the \softline
+{\u8216\'91}subjection{\u8217\'92} is not one-sided but mutual.  \par
+}{\plain \fs20 \fs20 \tab In relation to the {\u8216\'91}old{\u8217\'92} this is evidently something {\u8216\'91}new{\u8217\'92}: it is an innovation of the Gospel. [sic]}{\plain \fs20 \i\fs20   \softline
+Mulieris Dignitatem }{\plain \fs20 \fs20  n. 24.\par
+}\pard \fs20\tx0\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\tqr\tx9360
+{\plain \fs20 \fs20 Also:\par
+}\pard \fs20\li720\tx0\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\tqr\tx9360 
+{\plain \fs20 \fs20 All of the reasons in favor of the {\u8220\'93}subjection{\u8221\'94} of woman to man in marriage must be understood in the \softline
+sense of a {\u8220\'93}mutual subjection{\u8221\'94} of both {\u8220\'93}out of reverence for Christ.{\u8221\'94} }{\plain \fs20 \i\fs20 Mulieris Dignitatem}{\plain \fs20 \fs20  n.24.\par
+}\pard \fs20\tx0\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\tqr\tx9360
+{\plain \fs20 \fs20 John Paul II{\u8217\'92}s interpretation of these Scriptural passages reveals a deep commitment to the equality of men and \softline
+women.\par
+}{\plain \fs20 \fs20 \tab John Paul the Great also points out that the male temptation to dominate women is fed by sexual desires \softline
+that are untamed by chastity and that values women as tools for self-gratification. A man{\u8217\'92}s lust thus confirms his \softline
+dominating tendency and prevents the woman from being seen as man{\u8217\'92}s equal. As a result, lust and its \softline
+presuppositions of inequality are especially destructive of spousal love which requires each spouse to be a gift of \softline
+love for the other. \par
+}{\plain \fs20 \fs20 \tab Lust and inequality block the ability of the husband to recognize the wife{\u8217\'92}s acts of love as gifts; rather, such \softline
+husbands treat any act of love as acknowledgment of his superiority. In such relationships, there is nothing the \softline
+woman can do that can be recognized as a spousal love-gift; her initiatives are misunderstood as attempts to gain \softline
+power over the man; they are not perceived as}{\plain \fs20 \i\fs20  inviting}{\plain \fs20 \fs20  }{\plain \fs20 \i\fs20 an equal}{\plain \fs20 \fs20  to a union of love. As a writer to Ann Landers \softline
+complained:{}{\plain \fs24 \super 12{\footnote \pard \fs24\sa240 
+{\plain \fs24 \super 12}{}{\plain \fs24 }{\plain \fs20 \fs20 {\u8221\'94}Reader: Women should accept man{\u8217\'92}s desire for more than one,{\u8221\'94} Letter to Ann Landers, Signed {\u8220\'93}The Truth Hurts \softline
+in Austin, Texas.{\u8221\'94} }{\plain \fs20 \i\fs20 Star Tribune, }{\plain \fs20 \fs20 11 February 2001, sec. Variety, p. E2. This letter-writer also asserted: {\u8220\'93}Many other \softline
+cultures openly accept polygamy.  . . . And in many countries, adultery is accepted and shrugged off as nothing to \softline
+get excited about. The wife gets the financial support and social position, and the mistress gets the sex. This sounds \softline
+like a fair exchange to me.{\u8221\'94} }}}
+}{\plain \fs20 \super\fs20 }{\plain \fs20 \fs20 \par
+}\pard \fs20\li720\tx0\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\tqr\tx9360 
+{\plain \fs20 \fs20 The truth is, there is not a woman on the planet who can fully satisfy the needs of a powerful male. When \softline
+women quit asking men to make them the center of their universe and learn to accept a strong man{\u8217\'92}s desire \softline
+for more than one female companion, families will live together longer, more happily and with less rancor.\par
+}\pard \fs20\tx0\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\tqr\tx9360
+{\plain \fs20 \fs20 The prejudice, shown in this letter, shows how blinding male chauvinism can be. For this reason, chauvinism is not \softline
+merely selfishness but a destroyer of interpersonal love between equals. As the Pope points out: \par
+}\pard \fs20\li720\tx0\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\tqr\tx9360 
+{\plain \fs20 \fs20 . . . {\u8220\'93}domination{\u8221\'94} indicates the disturbance and loss of the stability of that fundamental equality which the \softline
+man and the woman possess in the {\u8220\'93}unity of the two{\u8221\'94} and this is especially to the disadvantage of the \softline
+woman, whereas }{\plain \fs20 \i\fs20 only the equality }{\plain \fs20 \fs20 resulting from their dignity as persons can give to their mutual \softline
+relationship the character of an }{\plain \fs20 \i\fs20 authentic}{\plain \fs20 \fs20  {\u8220\'93}communio personarum.{\u8221\'94}  }{\plain \fs20 \i\fs20 Mulieris Dignitatem}{\plain \fs20 \fs20   n. 10 (emphasis \softline
+mine)\par
+}\pard \fs20\tx0\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\tqr\tx9360
+{\plain \fs20 \fs20 Equality, thus, for John Paul II, is a necessary presupposition to marital love.  Unless a man }{\plain \fs20 \i\fs20 first}{\plain \fs20 \fs20  affirms that a \softline
+woman is his equal, her love can neither be recognized as a gift nor reciprocated; without reciprocation, an 
+{\u8220\'93}authentic{\u8221\'94} spousal communion cannot be established. In other words, the man{\u8217\'92}s affirmation of a woman{\u8217\'92}s equality \softline
+necessarily precedes her ability to be a gift of love to the man as well as the man{\u8217\'92}s ability to be a gift of love to the \softline
+woman. Thanks to Original Sin, romantic love becomes a war-zone for egotistical power games rather than the \softline
+opportunity for true love.\par
+}{\plain \fs20 \fs20 \tab Thus, John Paul II{\u8212\'97}in order to protect the conditions necessary for spousal love{\u8212\'97}had to denounce sexual \softline
+inequality both inside and outside of marriage. Indeed, lest we assume that the }{\plain \fs20 \i\fs20 Genesis}{\plain \fs20 \fs20  punishments are exhausted \softline
+within the confines of marriage, John Paul the Great cautions us that the }{\plain \fs20 \i\fs20 Genesis}{\plain \fs20 \fs20  punishments  {\u8220\'93}refer directly to \softline
+marriage, but indirectly they concern the different spheres of social life: the situations in which the woman remains \softline
+disadvantaged or discriminated against by the fact of being a woman.{\u8221\'94}{}{\plain \fs24 \super 13{\footnote \pard \fs24\sa240\sl480\slmult1 
+{\plain \fs24 \super 13}{}{\plain \fs24 }{\plain \fs20 \i\fs20 Mulieris Dignitatem }{\plain \fs20 \fs20  n. 10.}}}
+}{\plain \fs20 \super\fs20 }{\plain \fs20 \fs20   Original sin is thus responsible for the male \softline
+chauvinism that has caused so much suffering on the part of women who are valued as existing only for the sake of \softline
+man{\u8212\'97}and not for her own sake.\par
+}{\plain \fs20 \fs20 \par
+}{\plain \fs20 \b\fs20 Fourth Basic Truth: Ending the Mistreatment of Women is an Universal Obligation of Personalist Feminism}{\plain \fs20 \fs20  \par
+}{\plain \fs20 \fs20 \tab The basic ethical obligation to love others as oneself obligates all to oppose injustice whenever feasible. \softline
+This is especially the case with Christians who are called to resist the on-going and persistent effects of Original Sin \softline
+including those effects that disadvantage women. Hence, since it is the task of feminism to counter whatever harms \softline
+women, every Christian is called to be a feminist. But what type of feminism is obligatory? \par
+}{\plain \fs20 \fs20 \tab We begin to identify the type of feminism that we should pursue by realizing that the all-encompassing \softline
+Christian vocation is to love altruistically.  Altruistic love transcends the self. By so doing, altruistic love frees the \softline
+self{}{\plain \fs24 \super 14{\footnote \pard \fs24\sa240 
+{\plain \fs24 \super 14}{}{\plain \fs24 }{\plain \fs20 \fs20 {\u8220\'93}. . . freedom is acquired in love, that is, in the gift of self.{\u8221\'94}}{\plain \fs20 \i\fs20 Veritatis Splendor }{\plain \fs20 \fs20  n.87}}}
+}{\plain \fs20 \fs20 }{\plain \fs20 \fs20  and restores one to oneself.  This means that feminism is to counter the effects of Original Sin through love. \softline
+The obligation to treat human beings with love is called the }{\plain \fs20 \i\fs20 Personalistic Norm}{\plain \fs20 \fs20  by John Paul II.{}{\plain \fs24 \super 15{\footnote \pard \fs20\sa240 
+{\plain \fs24 \super 15}{}{\plain \fs24 }{\plain \fs20 \i\fs20 Love and Responsibility 41.}}}
+}{\plain \fs20 \fs20   The feminism that \softline
+seeks to remedy the disadvantages of women through love is thereby best called {\u8220\'93}Personalist Feminism.{\u8221\'94} \par
+}{\plain \fs20 \fs20 \par
+}{\plain \fs20 \b\fs20 Fifth Basic Truth: Personal Dignity is Protected & Restored through Merciful Love\par
+}{\plain \fs20 \fs20 The love prescribed by the Personalistic Norm and Personalist Feminism is the love that protects and restores \softline
+personal dignity. As such, this love is quintessentially merciful. As John Paul II put it:{}{\plain \fs24 \super 16{\footnote \pard \fs24\sa240 
+{\plain \fs24 \super 16}{}{\plain \fs24 }{\plain \fs20 \i\fs20 Dives in Misericordia}{\plain \fs20 \fs20  n. 14.4:  {\u8220\'93}. . . love and only love (including the kindly love that we call {\u8216\'91}mercy{\u8217\'92}) is capable \softline
+of restoring man to himself.{\u8221\'94}}}}
+}{\plain \fs20 \super\fs20 }{\plain \fs20 \fs20 \par
+}\pard \fs20\li720\tx0\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\tqr\tx9360 
+{\plain \fs20 \fs20 . . . love and mercy bring it about that people meet one another in that value which is man himself, with the \softline
+dignity that is proper to him. (}{\plain \fs20 \i\fs20 Dives in Misericordia}{\plain \fs20 \fs20  14.5)\par
+}\pard \fs20\tx0\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\tqr\tx9360
+{\plain \fs20 \fs20 Merciful love has several characteristics: it has the deepest respect for what is human and the sweetest sensitivity to \softline
+the needs of the person; it is the spirit of mutual brotherhood; it extends cordial tenderness and sensitivity;{}{\plain \fs24 \super 17{\footnote \pard \fs24\sa240\sl480\slmult1 
+{\plain \fs24 \super 17}{}{\plain \fs24 }{\plain \fs20 \i\fs20 Dives in Misericordia}{\plain \fs20 \fs20  n. 14.6.}}}
+}{\plain \fs20 \super\fs20 }{\plain \fs20 \fs20  it is 
+forgiving;{}{\plain \fs24 \super 18{\footnote \pard \fs24\sa240 
+{\plain \fs24 \super 18}{}{\plain \fs24 }{\plain \fs20 \i\fs20 Dives in Misericordia}{\plain \fs20 \fs20  14.8 {\u8220\'93}Society can become {\u8216\'91}ever more human{\u8217\'92} only when we introduce . . . the moment of \softline
+forgiveness . . . Forgiveness demonstrates the presence in the world of the love which is more powerful than sin. . . . \softline
+A world [without forgiveness] would be nothing but a world of cold and unfeeling justice, in the name of which each \softline
+person would claim his or her own rights vis-a-vis others; the various kinds of selfishness latent in man would \softline
+transform life and human society into a system of possession of the weak by the strong, or into an arena of \softline
+permanent strife between one group and another.{\u8221\'94}}}}
+}{\plain \fs20 \super\fs20 }{\plain \fs20 \fs20  it is the very form of God{\u8217\'92}s love for us.{}{\plain \fs24 \super 19{\footnote \pard \fs24\sa240 
+{\plain \fs24 \super 19}{}{\plain \fs24 }{\plain \fs20 \i\fs20 Dives in Misericordia: }{\plain \fs20 \fs20 13.4: {\u8220\'93}It is precisely because sin exists in the world, which {\u8220\'93}god so loved . . .that he gave \softline
+his only Son{\u8221\'94} that God, who {\u8220\'93}is love{\u8221\'94} cannot reveal himself otherwise than as mercy. This corresponds not only to \softline
+the most profound truth of that love which God is, but also to the whole interior truth of man and of the world which \softline
+is man{\u8217\'92}s temporary homeland.{\u8221\'94}}}}
+}{\plain \fs20 \super\fs20 }{\plain \fs20 \fs20  As such, it benefits the giver as well as the recipient.{}{\plain \fs24 \super 20{\footnote \pard \fs20\sa240 
+{\plain \fs24 \super 20}{}{\plain \fs24 }{\plain \fs20 \i\fs20 DM}{\plain \fs20 \fs20  14.30: {\u8220\'93}When we base ourselves on this disquieting model [of Christ crucified], we are able with all humility \softline
+to show mercy to others, knowing that Christ accepts it as if it were shown to himself (Mt 25:43-40). An act of \softline
+merciful love is only really such when we are deeply convinced at the moment that we perform it that we are at the \softline
+same time receiving mercy from the people who are accepting it from us.{\u8221\'94}}}}
+}{\plain \fs20 \fs20   \par
+}{\plain \fs20 \fs20 \tab The awareness of mercy{\u8217\'92}s mutuality precludes prideful self-righteousness and arrogance by reinforcing the \softline
+sacredness of the other that is so necessary for recognizing the other{\u8217\'92}s gift of self{\u8211\'96}especially in the case of woman. \par
+}{\plain \fs20 \fs20 \par
+}{\plain \fs20 \b\fs20 Sixth Basic Truth: Merciful Love is Collaborative}{\plain \fs20 \fs20 \par
+}{\plain \fs20 \fs20 \tab The mutuality of merciful love is experienced through collaboration. \tab Collaboration embodies mutuality \softline
+because it requires seeking to remedy needs by working with others for the sake of others. And this concern for \softline
+others identifies collaboration as instantiating love: after all, love cares about others and seeks to counter all evils. As \softline
+John Paul II put it: love is an {\u8220\'93}anxious solicitude to ensure for each individual every true good and to remove and \softline
+drive away every sort of evil.{\u8221\'94}{}{\plain \fs24 \super 21{\footnote \pard \fs24\sa240\sl480\slmult1 
+{\plain \fs24 \super 21}{}{\plain \fs24 }{\plain \fs20 \i\fs20 Dives in Misericordia}{\plain \fs20 \fs20  15.4.}}}
+}{\plain \fs20 \super\fs20 }{\plain \fs20 \fs20 \par
+}{\plain \fs20 \fs20 \tab Collaboration thus instantiates the personalistic norm to love others. Collaboration is, accordingly, an \softline
+universal duty. As John Paul II pointed out: {\u8220\'93}Collaboration in the development of the whole person and of every \softline
+human being is in fact a duty of all toward all.{\u8221\'94}{}{\plain \fs24 \super 22{\footnote \pard \fs20\sa240 
+{\plain \fs24 \super 22}{}{\plain \fs24 }{\plain \fs20 \i\fs20 Sollicitudo Rei Socialis}{\plain \fs20 \fs20  n. 32.2.}}}
+}{\plain \fs20 \fs20  This means that collaboration must structure the interactions of \softline
+men and women. \par
+}{\plain \fs20 \fs20 \tab Collaborative interactions, moreover, are required for discharging one{\u8217\'92}s obligation to the common good, \softline
+which is nothing other than {\u8220\'93}the good of all and of each individual, because we are all really responsible for all.{\u8221\'94}{}{\plain \fs24 \super 23{\footnote \pard \fs24\sa240\sl480\slmult1 
+{\plain \fs24 \super 23}{}{\plain \fs24 }{\plain \fs18 \i\fs18 Sollicitudo Rei Socialis}{\plain \fs18 \fs18  n. 38.6.}}}
+}{\plain \fs20 \super\fs20 }{\plain \fs20 \fs20   \par
+}{\plain \fs20 \fs20 \tab To seek the true good of others in collaboration with others is to exercise solidarity. Collaborative solidarity \softline
+seeks to serve rather than be served.{}{\plain \fs24 \super 24{\footnote \pard \fs24\sa240 
+{\plain \fs24 \super 24}{}{\plain \fs24 }{\plain \fs20 \i\fs20 Sollicitudo}{\plain \fs20 \fs20  n. 46.6: {\u8220\'93}The freedom with which Christ has set us free (cf. Gal 5:1) encourages us to become the \softline
+}{\plain \fs20 \i\fs20 servants}{\plain \fs20 \fs20  of all. Thus the process of development and liberation takes concrete shape in the exercise of solidarity, that \softline
+is to say in the love and service of neighbor; especially of the poorest . . .{\u8221\'94} }}}
+}{\plain \fs20 \super\fs20 }{\plain \fs20 \fs20  It promotes autonomy and free-self-determination especially where it is \softline
+systematically denied. It thus seeks to help the victims of poverty, prejudice, and male chauvinism. It thereby \softline
+humanizes the world. \par
+}{\plain \fs20 \fs20 \par
+}{\plain \fs20 \b\fs20 Seventh Basic Truth: Collaboration Humanizes the World}{\plain \fs20 \fs20 \par
+}{\plain \fs20 \fs20 \tab The sixth basic truth cannot be denied without oppressing women, namely, that the collaborative love and \softline
+solidarity required by Personalist Feminism humanizes the world. To so humanize the world through collaborative 
+solidarity or providential love is precisely the mission of today{\u8217\'92}s Church.{}{\plain \fs24 \super 25{\footnote \pard \fs24\sa240 
+{\plain \fs24 \super 25}{}{\plain \fs24 }{\plain \fs20 \i\fs20 Dives in Misericordia}{\plain \fs20 \fs20  14.7: {\u8220\'93}. . . Paul VI more than once indicated the {\u8216\'91}civilization of love{\u8217\'92} as the goal toward \softline
+which all efforts in the cultural and social fields as well as in the economic and political fields should tend .}}}
+}{\plain \fs20 \super\fs20 }{\plain \fs20 \fs20   As John Paul II pointed out ( }{\plain \fs20 \fs20 Dives in \softline
+Misericordia 14.7): {\u8220\'93}[T]he Second Vatican Council . . .  speaks repeatedly of the need to make the world more \softline
+human and says that the realization of this task is precisely the mission of the Church in the modern world.{\u8221\'94} \par
+}{\plain \fs20 \fs20 \tab The obligation to humanize the world requires a commitment not only to end the oppression of all, but also \softline
+a specific obligation to end the oppression of women through providential and collaborative love. And this is nothing \softline
+other than to honor the subjectivity of women, that is, to respect them as persons with whom one is to collaborate in \softline
+the providential pursuit of good. That is to say, it is to be a personalist feminist. \par
+}{\plain \fs20 \fs20 \tab To be a personalist feminist is to be one who counters the structures of evil according to the exigencies of \softline
+one{\u8217\'92}s life and professional responsibilities. The practice of personalist feminism is especially binding upon \softline
+professionals both men and women, because professionals build economic, educational, medical, political, legal, and \softline
+other social institutions. \par
+}{\plain \fs20 \fs20 \tab Although these institutions can benefit human beings and promote their happiness, they are not likely to do \softline
+so. We are a fallen race. Careful review of our institutions are thus needed to ensure that they do not become \softline
+{\u8220\'93}structures of sin.{\u8221\'94}  \par
+}{\plain \fs20 \fs20 \tab John Paul points out that institutions are especially liable to becoming oppressive when they are not \softline
+structured to acknowledge transcendent truths.{}{\plain \fs24 \super 26{\footnote \pard \fs20\sa240 
+{\plain \fs24 \super 26}{}{\plain \fs24 }{\plain \fs20 \i\fs20 Centesimus Annus}{\plain \fs20 \fs20  n. 44: {\u8220\'93}If there is no transcendent truth, in obedience to which a person achieves his full \softline
+identity, then there is no sure principle for guaranteeing just relations between people. Their self-interest as a class, \softline
+group or nation would inevitably set them in opposition to one another. If one does not acknowledge transcendent \softline
+truth, then the force of power takes over, and each person tends to make full use of the means at his disposal in order \softline
+to impose his own interests or his own opinion, with no regard for the rights of others. People are then respected \softline
+only to the extent that they can be exploited for selfish ends.{\u8221\'94}}}}
+}{\plain \fs20 \fs20  Only commitments to transcendental truths preclude exploitation. \softline
+For this reason, failure to acknowledge the transcendent truth about human beings leads to totalitarianism {}{\plain \fs24 \super 27{\footnote \pard \fs24\sa240\sl480\slmult1 
+{\plain \fs24 \super 27}{}{\plain \fs24 }{\plain \fs20 \fs20 Cf. }{\plain \fs20 \i\fs20 Centisimus Annus }{\plain \fs20 \fs20 n. 45.}}}
+}{\plain \fs20 \super\fs20 }{\plain \fs20 \fs20 --even \softline
+within democracies.{}{\plain \fs24 \super 28{\footnote \pard \fs24\sa240\sl480\slmult1 
+{\plain \fs24 \super 28}{}{\plain \fs24 }{\plain \fs20 \i\fs20 Centisimus Annus}{\plain \fs20 \fs20  n. 46.}}}
+}{\plain \fs20 \super\fs20 }{\plain \fs20 \super\fs20  }{\plain \fs20 \fs20 Indeed, no institution{\u8211\'96}however small and intimate--escapes the threat of exploiting its \softline
+members for institutional goals. It is thus necessary for social institutions to the transcendence of every individual. \softline
+Institutions exist for the sake of persons, not persons for the sake of institutions.\tab \par
+}{\plain \fs20 \fs20 \tab Acknowledgment that persons transcend their institutions entails treating persons with a love that is both \softline
+providential and collaborative. Such love calls every human being to realize that interdependency is essential to \softline
+human beings: we are naturally social or relational beings. We become who we are meant to be through \softline
+collaborative relationships of love{\u8212\'97}just as personalist feminism prescribes.\par
+}{\plain \fs20 \fs20 \par
+}{\plain \fs20 \b\fs20 Eight Basic Truth: Personalist Feminism Seeks Solutions to Global Problems}{\plain \fs20 \fs20 \par
+}{\plain \fs20 \fs20 \tab The call of personalist feminism, moreover, is global, since human interdependencies are also global. Every \softline
+person is to be concerned with advancing the welfare of the other according to opportunities of time, place, financial \softline
+resources, and talents. This means that professionals are especially called upon to address the problems cause by \softline
+globalization. \par
+}{\plain \fs20 \fs20 \tab These problems are particularity acute for mothers with young children in the least developed countries.  \softline
+According to Mary Ann Glendon, the framework for addressing these problems has been identified as having these \softline
+elements: primary health care, nutrition and sanitation debt relief, fair trade practices, the rule of law, and investment \softline
+in education.{}{\plain \fs24 \super 29{\footnote \pard \fs24\sa240 
+{\plain \fs24 \super 29}{}{\plain \fs24 }{\plain \fs20 \fs20 {\u8220\'93}Holy See Addresses U.N. Body on Poverty Eradication,{\u8221\'94}}{\plain \fs20 \i\fs20 Zenit}{\plain \fs20 \fs20  }{\plain \fs20 \i\fs20 News Agency, The World Seen from Rome}{\plain \fs20 \fs20 . July 1, \softline
+2004 (Zenit.org) Code: ZE04070121.}}}
+}{\plain \fs20 \super\fs20 }{\plain \fs20 \fs20   \par
+}{\plain \fs20 \fs20 \tab In brief: human dignity requires placing societies and economies within a juridical framework that 
+subordinates the marketplace to the demands of morality, human rights, the common good, and human \softline
+transcendence through love.}{\plain \fs20 \fs20  In this regard, John Paul II emphasizes the importance of natural rights: \par
+}\pard \fs20\fi-720\li720\tx0\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\tqr\tx9360 
+{\plain \fs20 \fs20 On the internal level of every nation, respect for all rights takes on great importance, especially: the right to \softline
+life at every stage of its existence; the rights of the family, as the basic social community, or "cell of \softline
+society{\u8221\'94}; justice in employment relationships; the rights inherent in the life of the political community as \softline
+such; the rights based on the transcendent vocation of the human being, beginning with the right of freedom \softline
+to profess and practice one's own religious belief. }{\plain \fs20 \i\fs20 Sollicitudo Rei Socialis}{\plain \fs20 \fs20  33.6: n.33.6. \par
+}\pard \fs20\tx0\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\tqr\tx9360
+{\plain \fs20 \fs20 These rights protect the dignity of the person and enables individuals to flourish.\par
+}{\plain \fs20 \fs20 \par
+}{\plain \fs20 \b\fs20 Ninth Basic Truth: Personalist Feminism is pro-life and pro-maternity. }{\plain \fs20 \fs20 \par
+}{\plain \fs20 \fs20 \tab At all times, personalist feminism takes as its principle of specification, or proper action, the truths about \softline
+women{\u8212\'97}including her ability to conceive and nurture new life. To kill her offspring, whether unborn or born, is thus \softline
+to attack her femininity and demean her value as a woman as well as to destroy a new human life; it is utterly \softline
+morally reprehensible. \par
+}{\plain \fs20 \fs20 \tab Women are also attacked and trivialized whenever her reproductive powers are isolated and manipulated \softline
+through biotechnology that farms her eggs for }{\plain \fs20 \i\fs20 in vitro}{\plain \fs20 \fs20  fertilizations and implants those fertilized eggs into the \softline
+wombs of strangers. The reduction of maternity to a form of living biotechnology asserts that maternity is not a \softline
+personal act whereby a woman{\u8217\'92}s love nurtures the little one but a productive act that lacks intrinsic value. \par
+}{\plain \fs20 \fs20 \tab Such trivialization of maternity not only insults women (and thereby the Creator) but makes the child a \softline
+product of technology. Thus, }{\plain \fs20 \i\fs20 in vitro}{\plain \fs20 \fs20  fertilization technologies trivialize the preciousness of human life and distort \softline
+the basic truths of womanhood. In other words, since}{\plain \fs20 \fs20  women bring new life into the world, to be anti-life is to be \softline
+anti-woman----just as, adopting artificial means of reproduction is also to be anti-woman. \par
+}{\plain \fs20 \fs20 \tab Denigrating the value of new human life and maternity (both physical and spiritual) disorient women and \softline
+cause her to lose her way so that she does not know the joy of self-transcendent love typically achieved through \softline
+sexual complementarity, spousal oneness and children.{}{\plain \fs24 \super 30{\footnote \pard \fs24\sa240 
+{\plain \fs24 \super 30}{}{\plain \fs24 }{\plain \fs20 \i\fs20 Mulieris Dignitatem}{\plain \fs20 \fs20   n. 10: {\u8220\'93}The revealed truth concerning the creation of the human being as male and female \softline
+constitutes the principal argument against all the objectively injurious and unjust situations which contain and \softline
+express the inheritance of the sin which all human beings bear within themselves.  The books of Sacred Scripture \softline
+confirm in various places the actual existence of such situations and at the same time proclaim the need for \softline
+conversion, that is to say, for purification from evil and liberation from sin: from what offends neighbor, what \softline
+{\u8220\'93}diminishes{\u8221\'94} man, not only the one who is offended but also the one who causes the offence. This is the \softline
+unchangeable message of the Word revealed by God.{\u8221\'94}}}}
+}{\plain \fs20 \super\fs20 }{\plain \fs20 \fs20  In such case, alienation from the wellspring of life \softline
+frequently causes loneliness and heart ache. Yet, women without children or without spouses can still find joy, if \softline
+they find a way to nurture life through their work or through volunteering. To so nurture life is to be a spiritual \softline
+mother{\u8212\'97}that is, to be the best kind of mother who can help others become humane.\par
+}{\plain \fs20 \fs20 \par
+}{\plain \fs20 \b\fs20 Tenth Truth: The Feminine Genius for Love Extends to the Spirit.}{\plain \fs20 \fs20 \par
+}{\plain \fs20 \fs20 \tab The maternal orientation is the source of what John Paul II calls their feminine genius insofar as women not \softline
+only are sensitive to the truth about others but also insofar as women can {\u8220\'93}ensure sensitivity for human beings in \softline
+every circumstance.{\u8221\'94}{}{\plain \fs24 \super 31{\footnote \pard \fs20\sa240 
+{\plain \fs24 \super 31}{}{\plain \fs24 }{\plain \fs20 \i\fs20 Mulieris Dignitatem}{\plain \fs20 \fs20  #30.}}}
+}{\plain \fs20 \fs20  And since it takes sensitivity to love effectively, it takes the genius of women to figure out \softline
+how to best love others and enable them achieve ultimate fulfillment by union with God. For this reason, John Paul \softline
+II speaks of women having a prophetic femininity that makes {\u8220\'93}manifest that very human being is loved by God in \softline
+Christ.{\u8221\'94}{}{\plain \fs24 \super 32{\footnote \pard \fs20\sa240 
+{\plain \fs24 \super 32}{}{\plain \fs24 }{\plain \fs20 \i\fs20 Mulieris Dignitatem }{\plain \fs20 \fs20  #29.}}}
+}{\plain \fs20 \fs20  This means that women can be not only mothers in the flesh but also mothers in the spirit, as explained by \softline
+John Paul II: \par
+}\pard \fs20\li720\tx0\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\tqr\tx9360 
+{\plain \fs20 \fs20 }{\plain \fs20 \fs20 Each and every time that motherhood is repeated in human history, it is always related to the Covenant \softline
+which God established with the human race through the motherhood of the Mother of God. Does not Jesus \softline
+bear witness to this reality which he answers the exclamation of that woman in the crowd who blessed him 
+for Mary{\u8217\'92}s motherhood: {\u8216\'91}Blessed is the womb that bore you, and the breasts that you sucked{\u33\'21}{\u8221\'94}? Jesus \softline
+replies: {\u8220\'93}Blessed rather are those who hear the word of God and keep it{\u8221\'94} (Lk 11:27-28).  Jesus confirms the \softline
+meaning of motherhood in reference to the body, but at the same time he indicates an even deeper meaning, \softline
+which is connected with the order of the spirit: it is a sign of the Covenant with God who {\u8216\'91}is spirit{\u8217\'92} (Jn \softline
+4:24). . . .  The motherhood of every woman, understood in light of the Gospel, is similarly not only {\u8216\'91}of \softline
+flesh and blood{\u8221\'94}: it expresses a profound {\u8216\'91}listening to the word of the living God{\u8217\'92} and a readiness to \softline
+{\u8216\'91}safeguard{\u8217\'92} this Word.  }{\plain \fs20 \i\fs20 Mulieris Dignitatem }{\plain \fs20 \fs20 #19.\par
+}\pard \fs20\tx0\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\tqr\tx9360
+{\plain \fs20 \fs20 In this way, Christ himself revealed the basic truth that women are to be spiritual mothers and bring God{\u8217\'92}s word to \softline
+life in the world. \par
+}{\plain \fs20 \fs20 \tab }{\plain \fs20 \fs20 This revelation is a great gift to all women but especially to those who are single or infertile because it \softline
+reassures them that not only does the world need their maternal genius for love but so does God: just as God counted \softline
+on the Virgin Mary, so God counts on women to light the world with His love. \par
+}{\plain \fs20 \fs20 \par
+}{\plain \fs20 \b\fs20 Eleventh Truth: Men Need to be Personalist Feminists}{\plain \fs20 \fs20 \par
+}{\plain \fs20 \fs20 \tab Women cannot fully exercise their feminine genius for promoting human dignity when men do not seek \softline
+their collaboration or otherwise fail to respect the basic truths about women. Indeed, unless men fully commit to \softline
+personalist feminism, they will fail to see the need to be proactive in remedying within themselves and within every \softline
+institution all those ways that women are oppressed. They will also fail to see the need to collaborate with women in \softline
+the building of the civilization of love.  And this civilization of love cannot be built without the insights of women \softline
+who must bring their feminine genius to bear on the problem of structuring institutions to respect the person. Men \softline
+must therefore be personalist feminists before the civilization of love can be fully realized.\par
+}{\plain \fs20 \fs20 \tab The civilization of love thus requires all to answer the call to personalist feminism and to seek to counter \softline
+the gender effects of Original Sin by honoring, at the very least, these basic truths about women: (1) women are the \softline
+equals of men; (2) the sexuality of women is designed for spousal oneness with their sexual complements (i.e., men); \softline
+(3) women{\u8212\'97}like men{\u8212\'97}achieve fulfillment only through love; (4) women still suffer from male oppression due to \softline
+Original Sin; (5) male oppression can be countered only through the love prescribed by the personalistic norm and \softline
+embodied in the practice of personalist feminism; (6) personalistic love identifies collaboration to be essential to \softline
+human interaction including male/female interaction; (7) personalistic feminism{\u8212\'97}like the Church{\u8212\'97}seeks to \softline
+humanize the world; (8-9) maternity{\u8212\'97}whether biological or spiritual{\u8212\'97}is essential to the fulfillment of women; and \softline
+(10) men need to become personalist feminists.\par
+}{\plain \fs20 \fs20 \tab Since it is not a kindness to women to disregard her genius in promoting the welfare of others, to kill her \softline
+children, to attack her maternity, to refuse to collaborate with her, to reduce her to the status of a sexual object or a \softline
+beast of burden, and to fail to love her as an equal.  \par
+}{\plain \fs20 \fs20 \tab It is thus not the Church who oppresses women but contemporary culture. \par
+}{\plain \fs20 \fs20 \tab \par
+}{\plain \fs20 \b\fs20 In Conclusion}{\plain \fs20 \fs20 : \par
+}{\plain \fs20 \fs20 \tab Since all are called to a collaborative and providential love that is eager to oppose evil whenever and \softline
+where-ever possible and since the oppression of women continues due to the weaknesses caused by Original Sin, all \softline
+are called to promote the dignity and well-being of women by honoring the truths about women. And since this is \softline
+what is means to be called to personalist feminism, the call of personalist feminism is a universal call. \par
+}\pard \fs24\sl480\slmult1\tx0\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\tqr\tx9360 
+}

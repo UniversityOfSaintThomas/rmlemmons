@@ -1,0 +1,811 @@
+[Version]
+Signature="$CHICAGO$"
+Provider=%ms%
+Class=Unknown
+ClassGUID={4d36e97e-e325-11ce-bfc1-08002be10318}
+
+[Det.Modules]
+msdet=*
+
+[msdet]
+DetectManual            =unknown,msdet.inf,1,BUS_ALL,RISK_NONE,
+DetectPIC               =system,machine.inf,1,BUS_ALL,RISK_NONE,
+DetectDMA               =system,machine.inf,1,BUS_ALL,RISK_NONE,
+DetectCMOS              =system,machine.inf,1,BUS_ALL,RISK_NONE,
+DetectTimer             =system,machine.inf,1,BUS_ALL,RISK_NONE,
+DetectSpeaker           =system,machine.inf,1,BUS_ALL,RISK_NONE,
+DetectNDP               =system,machine.inf,1,BUS_ALL,RISK_NONE,
+DetectSoundMan          =unknown,msdet.inf,1,BUS_ALL,RISK_NONE,
+DetectMCACards          =unknown,msdet.inf,1,BUS_MCA,RISK_NONE,
+DetectPS2ESDI           =hdc,mshdc.inf,1,BUS_MCA,RISK_NONE,
+DetectSystem            =system,machine.inf,1,BUS_ALL,RISK_VERYLOW,
+DetectBoardResources    =system,machine.inf,1,BUS_ISA,RISK_VERYLOW,
+DetectKbd               =keyboard,keyboard.inf,1,BUS_ALL,RISK_VERYLOW,
+DetectLantastic         =net*,net.inf,1,BUS_ALL,RISK_VERYLOW,
+DetectIPXODI            =net*,net.inf,1,BUS_ISA,RISK_VERYLOW,
+DetectIPXCOM            =net*,net.inf,1,BUS_ISA,RISK_VERYLOW,
+DetectNetEISA           =net*,net.inf,1,BUS_EISA,RISK_VERYLOW,
+DetectNetMCA            =net,net.inf,1,BUS_MCA,RISK_VERYLOW,
+DetectChiNet            =net*,net.inf,1,BUS_ALL,RISK_VERYLOW,
+DetectWFW               =net*,net.inf,1,BUS_ALL,RISK_VERYLOW,
+DetectLanMan            =net*,net.inf,1,BUS_ALL,RISK_VERYLOW,
+DetectOtherNDIS         =net*,net.inf,1,BUS_ALL,RISK_VERYLOW,
+DetectIntel596          =unknown,msdet.inf,1,BUS_ISA,RISK_VERYLOW,
+DetectHPOmnibook        =unknown,hpomni.inf,1,BUS_ISA,RISK_VERYLOW,
+DetectMCAGame           =media,joystick.inf,1,BUS_MCA,RISK_VERYLOW,
+DetectNCRACU            =SCSIAdapter,scsi.inf,1,BUS_EISA,RISK_VERYLOW,
+DetectUSC24x            =SCSIAdapter,scsi.inf,1,BUS_EISA,RISK_VERYLOW,
+DetectUSC124            =SCSIAdapter,scsi.inf,1,BUS_EISA,RISK_VERYLOW,
+DetectDPTEISA           =SCSIAdapter,scsi.inf,1,BUS_EISA,RISK_VERYLOW,
+DetectAHA174x           =SCSIAdapter,scsi.inf,1,BUS_EISA,RISK_VERYLOW,
+DetectNCR700            =SCSIAdapter,scsi.inf,1,BUS_MCA,RISK_BIOSROMRD,
+DetectBus               =system,machine.inf,1,BUS_ALL,RISK_SWINT,
+DetectAPMBIOS           =system,machine.inf,1,BUS_ALL,RISK_SWINT,
+DetectDockable          =system,machine.inf,1,BUS_ALL,RISK_SWINT,
+DetectPS2Mouse          =mouse,msmouse.inf,1,BUS_ALL,RISK_SWINT,
+DetectMach64            =display,msdisp.inf,1,BUS_ALL,RISK_LOW,
+DetectMach32            =display,msdisp.inf,1,BUS_ALL,RISK_LOW,DetectMach64
+DetectMach8             =display,msdisp.inf,1,BUS_ALL,RISK_LOW,DetectMach32
+DetectCirrusMMapped     =display,msdisp.inf,1,BUS_ISA,RISK_LOW,DetectMach8
+DetectCirrusLapTop      =display,msdisp.inf,1,BUS_ISA,RISK_LOW,DetectCirrusMMapped
+DetectCirrusDeskTop     =display,msdisp.inf,1,BUS_ISA,RISK_LOW,DetectCirrusLapTop
+DetectS3801             =display,msdisp.inf,1,BUS_ISA,RISK_LOW,DetectCirrusDeskTop
+DetectS3                =display,msdisp.inf,1,BUS_ISA,RISK_LOW,DetectS3801
+DetectWDDeskTop         =display,msdisp.inf,1,BUS_ISA,RISK_LOW,DetectS3
+DetectWDLapTop          =display,msdisp.inf,1,BUS_ISA,RISK_LOW,DetectWDDeskTop
+DetectXGA               =display,msdisp.inf,1,BUS_ALL,RISK_LOW,DetectWDLapTop
+DetectXGA2              =display,msdisp.inf,1,BUS_ALL,RISK_LOW,DetectXGA
+DetectTsengW32          =display,msdisp.inf,1,BUS_ALL,RISK_LOW,DetectXGA2
+DetectTsengW128         =display,msdisp.inf,1,BUS_ALL,RISK_LOW,DetectW32
+DetectQV                =display,msdisp.inf,1,BUS_ALL,RISK_LOW,DetectTsengW128
+DetectAVGA              =display,msdisp.inf,1,BUS_ALL,RISK_LOW,DetectQV
+DetectCT545             =display,msdisp.inf,1,BUS_ISA,RISK_LOW,DetectAVGA
+DetectMatrox            =display,msdisp.inf,1,BUS_ISA,RISK_LOW,DetectCT545
+DetectCPQ2000           =display,msdisp.inf,1,BUS_ISA,RISK_LOW,DetectMatrox
+DetectTseng             =display,msdisp.inf,1,BUS_ALL,RISK_LOW,DetectCPQ2000
+DetectWonder            =display,msdisp.inf,1,BUS_ISA,RISK_LOW,DetectTseng
+DetectOak               =display,msdisp.inf,1,BUS_ISA,RISK_LOW,DetectWonder
+DetectTrident           =display,msdisp.inf,1,BUS_ISA,RISK_LOW,DetectOak
+DetectCTSVGA            =display,msdisp.inf,1,BUS_ISA,RISK_LOW,DetectTrident
+DetectV7                =display,msdisp.inf,1,BUS_ISA,RISK_LOW,DetectCTSVGA
+DetectVGA               =display,msdisp.inf,1,BUS_ALL,RISK_LOW,DetectV7
+DetectAssumeVGA         =display,msdisp.inf,1,BUS_ALL,RISK_LOW,DetectVGA
+DetectUBNIUPC           =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectUBPCNIU           =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectUBPCNIUEX128      =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectUBPCNIUEX512      =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectUBNIUPCTR         =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectUBPCNIC           =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectUBNIUPCEOTP       =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectDECDEPCA          =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectDECDEPCAJR        =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectDECTURBO          =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectDECDEPCAJRTP      =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectDECTURBOTP        =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectDECDE202          =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectDECDE102          =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectDECEE102          =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectZNote             =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectIBMTokenRing      =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectTCTropic          =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectSMC               =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectRadisys           =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectHPTwistPlus       =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectHPTLANPlus        =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectTCToken           =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectNE1000            =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectArtisoftAE1       =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectNE2000            =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectArtisoftAE2       =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectZStation          =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectCTron20           =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectTC5043            =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectNE2Clone          =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectNE1Clone          =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectElnk3             =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectEE16              =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectIntel595          =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectELnkII            =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectExos105           =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectNE1500            =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectRI6510            =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectAM2100            =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectEverex            =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectKodiak            =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectKodiakQuad        =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectKodiakUTP         =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectKodiakDual        =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectKodiakServe       =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectKodiakNote        =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectCTron21           =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectELnkI             =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectELnk16            =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectArcNet            =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectELnkPlus          =net,net.inf,1,BUS_ISA,RISK_DELICATE,
+DetectFD8xx             =SCSIAdapter,scsi.inf,1,BUS_ISA,RISK_MEMRD,
+DetectHardCard          =hdc,mshdc.inf,1,BUS_ISA,RISK_MEMRD,
+;DetectT128             =SCSIAdapter,scsi.inf,1,BUS_ISA,RISK_MEMRD,
+DetectIN2000            =SCSIAdapter,scsi.inf,1,BUS_ISA,RISK_IORD,
+DetectFloppy            =fdc,msfdc.inf,1,BUS_ALL,RISK_IORD,
+DetectCOM               =ports,msports.inf,1,BUS_ALL,RISK_IORD,
+DetectInportMouse       =mouse,msmouse.inf,1,BUS_ISA,RISK_IORD,
+DetectSerialMouse       =mouse,msmouse.inf,1,BUS_ALL,RISK_IORD,
+DetectUSC14x            =SCSIAdapter,scsi.inf,1,BUS_ISA,RISK_IORD,
+DetectFD18xx            =SCSIAdapter,scsi.inf,1,BUS_ALL,RISK_IORD,
+DetectFD7000ex          =SCSIAdapter,scsi.inf,1,BUS_EISA,RISK_IORD,
+DetectBusLogic          =SCSIAdapter,scsi.inf,1,BUS_ALL,RISK_IORD,
+DetectAHA154x           =SCSIAdapter,scsi.inf,1,BUS_ALL,RISK_IORD,DetectBusLogic
+DetectAIC6x60           =SCSIAdapter,scsi.inf,1,BUS_ISA,RISK_IORD,
+DetectSpock             =SCSIAdapter,scsi.inf,1,BUS_MCA,RISK_IORD,
+DetectDPTISA            =SCSIAdapter,scsi.inf,1,BUS_ISA,RISK_IOWR,
+DetectESDI              =hdc,mshdc.inf,1,BUS_ISA,RISK_IOWR,DetectDPTISA
+DetectAIC777x           =SCSIAdapter,scsi.inf,1,BUS_ISA,RISK_IOWR,
+DetectLPT               =ports,msports.inf,1,BUS_ALL,RISK_IOWR,
+;DetectXircomPE3         =net,net.inf,1,BUS_ALL,RISK_IOWR,
+;DetectT3x8              =SCSIAdapter,scsi.inf,1,BUS_ALL,RISK_IOWR,
+DetectPCIC              =pcmcia,pcmcia.inf,1,BUS_ALL,RISK_IOWR,
+DetectBusMouse          =mouse,msmouse.inf,1,BUS_ISA,RISK_IOWR,
+DetectPC2x              =SCSIAdapter,scsi.inf,1,BUS_ISA,RISK_IOWR,
+DetectOPTIMediaCHIPS    =media,mf.inf,1,BUS_ISA,RISK_IOWR,
+DetectSonyCD            =Adapter,adapter.inf,13,BUS_ISA,RISK_IOWR,
+DetectPAS               =media,wave.inf,1,BUS_ISA,RISK_IOWR,
+DetectJazz              =media,wave.inf,1,BUS_ISA,RISK_IOWR,DetectPAS
+DetectSB                =media,wave.inf,1,BUS_ALL,RISK_IOWR,DetectJazz
+DetectWSS               =media,wave.inf,1,BUS_ALL,RISK_IOWR,DetectSB
+DetectAdlib             =media,midi.inf,1,BUS_ISA,RISK_IOWR,DetectSB
+DetectVxP500            =media,vidcap.inf,1,BUS_ISA,RISK_IOWR,
+DetectMitsumi           =Adapter,adapter.inf,191,BUS_ISA,RISK_IOWR,
+DetectMKECR5xx          =Adapter,adapter.inf,15,BUS_ISA,RISK_IOWR,DetectMitsumi
+;DetectEISACards         =eisa,eisa.inf,1,BUS_EISA,RISK_VERYHIGH,
+DetectT13B              =SCSIAdapter,scsi.inf,1,BUS_ISA,RISK_VERYHIGH,
+DetectMPU401            =media,midi.inf,1,BUS_ISA,RISK_VERYHIGH,DetectSB
+DetectDBK               =pcmcia,pcmcia.inf,1,BUS_ISA,RISK_VERYHIGH,
+;DetectT160             =SCSIAdapter,scsi.inf,1,BUS_ALL,RISK_VERYHIGH,
+
+[strings]
+ms="Microsoft"
+DetectManual            ="Manual Devices"
+DetectPIC               ="Programmable Interrupt Controller"
+DetectDMA               ="Direct Memory Access Controller"
+DetectCMOS              ="System CMOS/Real Time Clock"
+DetectTimer             ="System Timer"
+DetectSpeaker           ="System Speaker"
+DetectNDP               ="Numeric Data Processor"
+DetectSoundMan          ="Logitech SoundMan"
+DetectMCACards          ="Miscellaneous MCA Adapter"
+DetectPS2ESDI           ="IBM MCA Integrated Fixed Disk and Controller"
+DetectSystem            ="System Board"
+DetectBoardResources    ="Motherboard Resources"
+DetectKbd               ="Keyboard"
+DetectHPOmnibook        ="HP Omnibook 600 series"
+DetectLantastic         ="Network Cards using Artisoft LANtastic"
+DetectIPXODI            ="Network Cards using Novell ODI Driver"
+DetectIPXCOM            ="Network Cards using Novell IPX.COM"
+DetectNetEISA           ="EISA Network Cards"
+DetectNetMCA            ="MCA Network Cards"
+DetectChiNet            ="Network Cards using Microsoft Windows"
+DetectWFW               ="Network Cards using Microsoft Windows For Workgroups"
+DetectLanMan            ="Network Cards using Microsoft LanMan"
+DetectOtherNDIS         ="Network Cards using NDIS Based Network"
+DetectMCAGame           ="MCA Game Port"
+DetectNCRACU            ="Acculogic EISApport SCSI Host Adapter"
+DetectUSC24x            ="UltraStor 24F/24FA EISA SCSI Host Adapter"
+DetectUSC124            ="UltraStor 124F EISA SCSI Disk Array Controller"
+DetectDPTEISA           ="DPT 2xx2 EISA SCSI Host Adapter"
+DetectAHA174x           ="Adaptec AHA-174x EISA SCSI Host Adapter"
+DetectNCR700            ="NCR C700 MCA SCSI Host Adapter"
+DetectBus               ="System Bus"
+DetectAPMBIOS           ="Advanced Power Management Support"
+DetectDockable          ="Dockable Portable"
+DetectPS2Mouse          ="PS/2 Style Mouse"
+DetectMach64            ="ATI Ultra Pro Turbo (Mach 64) Display Adapter"
+DetectMach32            ="ATI Ultra Pro/Plus (Mach 32) Display Adapter"
+DetectMach8             ="ATI Ultra (Mach 8) Display Adapter"
+DetectCirrusMMapped     ="Cirrus Logic Memory-mapped Display Adapter"
+DetectCirrusLapTop      ="Cirrus Logic Laptop VGA Display Adapter"
+DetectCirrusDeskTop     ="Cirrus Logic VGA Display Adapter"
+DetectS3801             ="S3 801/805/928/864/964 Display Adapter"
+DetectS3                ="S3 Display Adapter"
+DetectWDDeskTop         ="Western Digital VGA Display Adapter"
+DetectWDLapTop          ="Western Digital Laptop VGA Display Adapter"
+DetectXGA               ="XGA Display Adapter"
+DetectXGA2              ="XGA/2 Display Adapter"
+DetectTsengW32          ="Tseng Labs W32 Display Adapter"
+DetectTsengW128         ="Tseng Labs Display Adapter"
+DetectQV                ="Compaq Qvision Display Adapter"
+DetectAVGA              ="Compaq Advanced VGA Display Adapter"
+DetectCT545             ="Chips & Technology Accelerated Display Adapter"
+DetectMatrox            ="Matrox MGA Display Adapter"
+DetectCPQ2000           ="Compaq Qvision 2000 Display Adapter"
+DetectTseng             ="Tseng Labs ET4000 Display Adapter"
+DetectWonder            ="ATI VGA Wonder Display Adapter"
+DetectOak               ="Oak Technology VGA Display Adapter"
+DetectTrident           ="Trident VGA Display Adapter"
+DetectCTSVGA            ="Chips & Technology Super VGA Display Adapter"
+DetectV7                ="Video Seven VGA Display Adapter"
+DetectVGA               ="Standard VGA Display Adapter"
+DetectAssumeVGA         ="Default Standard VGA Display Adapter"
+DetectUBNIUPC           ="Ungermann Bass NIUPC Network Adapter"
+DetectUBPCNIU           ="Ungermann Bass PCNIU Network Adapter"
+DetectUBPCNIUEX128      ="Ungermann Bass PCNIUEX128 Network Adapter"
+DetectUBPCNIUEX512      ="Ungermann Bass PCNIUEX512 Network Adapter"
+DetectUBNIUPCTR         ="Ungermann Bass NIUPCTR Network Adapter"
+DetectUBPCNIC           ="Ungermann Bass PCNIC Network Adapter"
+DetectUBNIUPCEOTP       ="Ungermann Bass NIUPCEOTP Network Adapter"
+DetectDECDEPCA          ="DEC DEPCA Network Adapter"
+DetectDECDEPCAJR        ="DEC DEPCAJR Network Adapter"
+DetectDECTURBO          ="DEC (DE200) EtherWorks Turbo Network Adapter"
+DetectDECDEPCAJRTP      ="DEC DEPCAJR/TP Network Adapter"
+DetectDECTURBOTP        ="DEC (DE200) EtherWorks Turbo/TP Network Adapter"
+DetectDECDE202          ="DEC (DE202) EtherWorks Turbo/TP_BNC Network Adapter"
+DetectDECDE102          ="DEC (DE102) EtherWorks LC/TP_BNC Network Adapter"
+DetectDECEE102          ="DEC EE102 Network Adapter"
+DetectZNote             ="Zenith Data Systems Z-Note Network Adapter"
+DetectIBMTokenRing      ="IBM Token Ring Network Adapter"
+DetectTCTropic          ="Thomas Conrad TC4043 Network Adapter"
+DetectSMC               ="SMC Network Adapter"
+DetectRadisys           ="RadiSys EXM-10 Network Adapter"
+DetectHPTwistPlus       ="HP PC LAN 16TP Plus Network Adapter"
+DetectHPTLANPlus        ="HP PC LAN 16TL Plus Network Adapter"
+DetectTCToken           ="Thomas Conrad TC4045 Network Adapter"
+DetectNE1000            ="Novell/Anthem NE1000 Network Adapter"
+DetectArtisoftAE1       ="Artisoft AE-1 Network Adapter"
+DetectNE2000            ="Novell/Anthem NE2000 Network Adapter"
+DetectArtisoftAE2       ="Artisoft AE-2 Network Adapter"
+DetectZStation          ="Zenith Data Systems NE2000 Compatible Network Adapter"
+DetectCTron20           ="Cabletron E2000 Series DNI Network Adapter"
+DetectTC5043            ="Thomas Conrad TC5043 Network Adapter"
+DetectNE2Clone          ="Novell NE2000 Compatible Network Adapter"
+DetectNE1Clone          ="Novell NE1000 Compatible Network Adapter"
+DetectElnk3             ="3Com EtherLink III Network Adapter"
+DetectEE16              ="Intel EtherExpress 16 or 16TP Network Adapter"
+DetectIntel595          ="Intel 595 compatible Network Adapter"
+DetectIntel596          ="Intel 596 compatible Network Adapter"
+DetectELnkII            ="3Com EtherLink II or IITP (8/16-bit) Network Adapter"
+DetectExos105           ="Exos 105 Network Adapter"
+DetectNE1500            ="Novell/Anthem NE1500T Network Adapter"
+DetectRI6510            ="Racal NI6510 Network Adapter"
+DetectAM2100            ="AMD AM2100/AM1500T-based Network Adapter"
+DetectEverex            ="Everex SpeedLink/PC16 Network Adapter"
+DetectKodiak            ="Kodiak 8/16 Network Adapter"
+DetectKodiakQuad        ="Kodiak Quad Network Adapter"
+DetectKodiakUTP         ="Kodiak 8/16 UTP Network Adapter"
+DetectKodiakDual        ="Kodiak Dual Network Adapter"
+DetectKodiakServe       ="Kodiak Serve Board Network Adapter"
+DetectKodiakNote        ="Kodiak NotePort Network Adapter"
+DetectCTron21           ="Cabletron E2100 Series DNI Network Adapter"
+DetectELnkI             ="3Com EtherLink I Network Adapter"
+DetectELnk16            ="3Com EtherLink 16 Network Adapter"
+DetectArcNet            ="SMC ARCNET Network Adapter"
+DetectELnkPlus          ="3Com EtherLink Plus Network Adapter"
+DetectFD8xx             ="Future Domain TMC-950 SIC-based SCSI Host Adapter"
+DetectHardCard          ="Plus Hardcard"
+;DetectT128              ="Trantor T128 SCSI Host Adapter"
+DetectIN2000            ="Always IN-2000 SCSI Host Adapter"
+DetectFloppy            ="Standard Floppy Controller"
+DetectCOM               ="Serial Communication Port"
+DetectInportMouse       ="Inport Mouse"
+DetectSerialMouse       ="Serial Mouse"
+DetectUSC14x            ="UltraStor 14x SCSI Host Adapter"
+DetectFD18xx            ="Future Domain TMC-18xx SIC-based SCSI Host Adapter"
+DetectFD7000ex          ="Future Domain 7000EX EISA SCSI Host Adapter"
+DetectBusLogic          ="BusLogic SCSI Host Adapter"
+DetectAHA154x           ="Adaptec AHA-154x/AHA-164x SCSI Host Adapter"
+DetectAIC6x60           ="Adaptec AIC-6x60 ISA Single-Chip SCSI Host Adapter"
+DetectSpock             ="IBM MCA SCSI Host Adapter"
+DetectDPTISA            ="DPT 20x1 ISA SCSI Host Adapter"
+DetectESDI              ="Standard IDE/ESDI Hard Disk Controller"
+DetectAIC777x           ="Adaptec AHA274x/AIC-777x EISA SCSI Host Adapter"
+DetectLPT               ="Parallel Printer Port"
+;DetectXircomPE3         ="Xircom Pocket Ethernet III"
+;DetectT3x8              ="Trantor T3x8 Parallel Port SCSI Adapter"
+DetectPCIC              ="Intel PCIC Compatible PCMCIA Controller"
+DetectBusMouse          ="Bus Mouse"
+DetectPC2x              ="Iomega PC2x 8-bit SCSI Host Adapter"
+DetectSonyCD            ="Sony Proprietary CD-ROM Controller"
+DetectOPTIMediaCHIPS    ="OPTi MediaCHIPS (82C928 & 82C929)"
+DetectPAS               ="Media Vision Pro Audio Spectrum"
+DetectJazz              ="Media Vision Jazz"
+DetectWSS               ="Windows Sound System"
+DetectSB                ="Sound Blaster Compatible"
+DetectAdlib             ="Adlib Compatible (MIDI)"
+DetectVxP500            ="AuraVision VxP500 Compatible Video Capture Adapter"
+DetectMitsumi           ="Mitsumi CD-ROM Drive"
+DetectMKECR5xx          ="Panasonic CD-ROM Drive"
+;DetectEISACards         ="Miscellaneous EISA Adapter"
+DetectT13B              ="Trantor T13B 8-bit SCSI Host Adapter"
+DetectMPU401            ="MPU-401 Compatible (MIDI)"
+DetectDBK               ="Databook PCMCIA Controller"
+DetectT160              ="Trantor T160 SCSI Host Adapter"
+system                  ="System"
+keyboard                ="Keyboard"
+net                     ="Network Adapter"
+media                   ="Sound, MIDI, or Video Capture Card"
+SCSIAdapter             ="SCSI Controllers"
+mouse                   ="Mouse"
+display                 ="Display"
+hdc                     ="Hard Disk Controllers"
+fdc                     ="Floppy Disk Controllers"
+ports                   ="Ports"
+pcmcia                  ="PCMCIA Socket"
+adapter                 ="CD-ROM Drive"
+eisa                    ="Other EISA Adapters"
+mca                     ="Other MCA Adapters"
+unknown                 ="Unknown Devices"
+*pnpffff.DeviceDesc     ="Unsupported Device"
+Unknown                 ="Unknown"
+
+[Manufacturer]
+%Unknown%=Unknown
+
+[Unknown]
+%*pnpffff.DeviceDesc%=UnsupportedDev,*pnpffff   ;unsupported device
+
+[UnsupportedDev]
+
+[Det.ClassInfo]
+;SCSIAdapter=*:DetectSCSI
+Adapter=*:DetectAdapter
+Media=*:DetectMedia
+Net=*:DetectNet,SAFE_EXCL
+pcmcia=,SAFE_EXCL
+display=,SAFE_EXCL
+
+[Det.RegCfgSysDev]
+*pnpffff=satisfax
+*pnpffff=hhscand
+*pnpffff=sonycdu
+
+[Det.RegIniDev]
+*pnpffff=MachinePro
+*pnpffff=PictureTel0
+*pnpffff=PictureTel2
+*pnpffff=PictureTel4
+*pnpffff=ReelMagic
+*pnpffff=RReveal
+
+[Det.RegEnvDev]
+*pnpffff=Promotion
+
+[satisfax]
+Name=SATISFAX
+IO="IOADDR=",10
+
+[hhscand]
+Name=HHSCAND
+IO="/A=",10
+IRQ="/I="
+DMA="/D="
+
+[sonycdu]
+Name=SONY_CDU
+IO="/B:",10
+
+[MachinePro]
+Name=moviecod.ini,"Hardware Settings"
+IO="H5IOBase",8
+IRQ="H5IntNumb"
+
+[PictureTel0]
+Name=system.ini,"PICTEL00"
+IO="PICTEL00_IO",20
+Mem="PICTEL00_MEM",4000
+IRQ="PICTEL00_IRQ"
+
+[PictureTel2]
+Name=system.ini,"PICTEL02"
+IO="V35_BASE",40,"RS_366_BASE",10
+
+[PictureTel4]
+Name=system.ini,"PICTEL04"
+IO="SW56_BASE",10
+IRQ="SW56_IRQ"
+
+[ReelMagic]
+Path=system.ini,"drivers","reeldrv"
+Name=fmpdrv.ini,"ReelMagic"
+IO="Port",4
+
+[RReveal]
+Name=rreveal.ini,"SYSTEM"
+IO="ADDR",4
+
+[Promotion]
+Name=VIP8000
+IO=,10
+
+[Det.DevINFs]
+mca_7f4c=scsi.inf
+mca_7f4d=scsi.inf
+mca_7f4f=scsi.inf
+mca_01ba=scsi.inf
+mca_01bb=scsi.inf
+
+[Det.HPOmnibook]
+SkipList=Unknown,Net,SCSIAdapter,Mouse,HDC,FDC,PCMCIA,Media,Adapter
+
+[Det.ForceHWVerify]
+*AZT1605=04.00.224
+*AZT2316=04.00.224
+*CPQA0D5=04.00.224
+*PNPB007=04.00.224
+*PNPB008=04.00.224
+*PNPB00A=04.00.224
+*PNPB00B=04.00.224
+*PNPB00D=04.00.224
+*PNPB00E=04.00.224
+*PNPB00F=04.00.224
+*PNPB011=04.00.224
+*PNPB019=04.00.224
+;
+; this forces verification to always run
+;
+*PNPB02F=04.00.65535
+*PNP0C00=04.00.65535
+*PNP0C05=04.00.65535
+
+[BadDSBios]
+DSBiosGateCB27
+DSKapokBios
+
+[DSBiosGateCB27]
+search=f000,0,ffff,S,"Gateway ColorBook (TM)"
+search=f000,0,ffff,S,"2310-07"
+
+[DSKapokBios]
+memory=f000,e000,S,"Award"
+date="<",7,1,95
+search=f000,0,ffff,S,"KAPOK:8200"
+
+[BadDiskBios]
+DiskBiosGLB0
+DiskBiosGLB1
+DiskBiosGLB2
+DiskBiosGLB3
+DiskBiosGLB4
+DiskBiosGLB5
+DiskBiosGJX0
+DiskBiosGJX1
+DiskBiosGJX2
+DiskBiosGJX3
+DiskBiosGJX4
+DiskBiosGJX5
+DiskBiosGJXG0
+DiskBiosGJXG1
+DiskBiosGJXG2
+DiskBiosGJXG3
+DiskBiosGJXG4
+DiskBiosGJXG5
+
+[DiskBiosGLB0]
+search=f000,0,ffff,S,"80486 ROM BIOS PLUS Version 0.10 GLB00"
+harddisk=49,">",500
+
+[DiskBiosGLB1]
+search=f000,0,ffff,S,"80486 ROM BIOS PLUS Version 0.10 GLB01"
+harddisk=49,">",500
+
+[DiskBiosGLB2]
+search=f000,0,ffff,S,"80486 ROM BIOS PLUS Version 0.10 GLB02"
+harddisk=49,">",500
+
+[DiskBiosGLB3]
+search=f000,0,ffff,S,"80486 ROM BIOS PLUS Version 0.10 GLB03"
+harddisk=49,">",500
+
+[DiskBiosGLB4]
+search=f000,0,ffff,S,"80486 ROM BIOS PLUS Version 0.10 GLB04"
+harddisk=49,">",500
+
+[DiskBiosGLB5]
+search=f000,0,ffff,S,"80486 ROM BIOS PLUS Version 0.10 GLB05"
+harddisk=49,">",500
+
+[DiskBiosGJX0]
+search=f000,0,ffff,S,"80486 ROM BIOS PLUS Version 0.10 GJX30-00"
+harddisk=49,">",500
+
+[DiskBiosGJX1]
+search=f000,0,ffff,S,"80486 ROM BIOS PLUS Version 0.10 GJX30-01"
+harddisk=49,">",500
+
+[DiskBiosGJX2]
+search=f000,0,ffff,S,"80486 ROM BIOS PLUS Version 0.10 GJX30-02"
+harddisk=49,">",500
+
+[DiskBiosGJX3]
+search=f000,0,ffff,S,"80486 ROM BIOS PLUS Version 0.10 GJX30-03"
+harddisk=49,">",500
+
+[DiskBiosGJX4]
+search=f000,0,ffff,S,"80486 ROM BIOS PLUS Version 0.10 GJX30-04"
+harddisk=49,">",500
+
+[DiskBiosGJX5]
+search=f000,0,ffff,S,"80486 ROM BIOS PLUS Version 0.10 GJX30-05"
+harddisk=49,">",500
+
+[DiskBiosGJXG0]
+search=f000,0,ffff,S,"80486 ROM BIOS PLUS Version 0.10 GJX30G-00"
+harddisk=49,">",500
+
+[DiskBiosGJXG1]
+search=f000,0,ffff,S,"80486 ROM BIOS PLUS Version 0.10 GJX30G-01"
+harddisk=49,">",500
+
+[DiskBiosGJXG2]
+search=f000,0,ffff,S,"80486 ROM BIOS PLUS Version 0.10 GJX30G-02"
+harddisk=49,">",500
+
+[DiskBiosGJXG3]
+search=f000,0,ffff,S,"80486 ROM BIOS PLUS Version 0.10 GJX30G-03"
+harddisk=49,">",500
+
+[DiskBiosGJXG4]
+search=f000,0,ffff,S,"80486 ROM BIOS PLUS Version 0.10 GJX30G-04"
+harddisk=49,">",500
+
+[DiskBiosGJXG5]
+search=f000,0,ffff,S,"80486 ROM BIOS PLUS Version 0.10 GJX30G-05"
+harddisk=49,">",500
+
+[Det.Options]
+SkipList=#OEMSkipFactory
+
+[OEMSkipFactory]
+DetectMitsumi
+DetectSonyCD
+DetectPCIC
+DetectV7
+DetectCTSVGA
+DetectTrident
+DetectOak
+DetectWonder
+DetectCPQ2000
+DetectMatrox
+DetectCT545
+DetectAVGA
+DetectQV
+DetectXGA2
+DetectXGA
+DetectT13B
+DetectPC2x
+DetectDPTISA
+DetectSpock
+DetectBusLogic
+DetectFD7000ex
+DetectFD18xx
+DetectIN2000
+DetectFD8xx
+DetectNCR700
+DetectDPTEISA
+DetectUSC124
+DetectUSC24x
+DetectNCRACU
+DetectVxP500
+DetectJazz
+DetectPAS
+DetectOPTIMediaCHIPS
+DetectMCAGame
+DetectELnkPlus
+DetectArcNet
+DetectELnk16
+DetectELnkI
+DetectCTron21
+DetectKodiakNote
+DetectKodiakServe
+DetectKodiakDual
+DetectKodiakUTP
+DetectKodiakQuad
+DetectKodiak
+DetectEverex
+DetectAM2100
+DetectRI6510
+DetectNE1500
+DetectExos105
+DetectELnkII
+DetectIntel595
+DetectEE16
+DetectNE1Clone
+DetectNE2Clone
+DetectTC5043
+DetectCTron20
+DetectZStation
+DetectArtisoftAE2
+DetectNE2000
+DetectArtisoftAE1
+DetectNE1000
+DetectTCToken
+DetectHPTLANPlus
+DetectHPTwistPlus
+DetectRadisys
+DetectTCTropic
+DetectIBMTokenRing
+DetectZNote
+DetectDECEE102
+DetectDECDE102
+DetectDECDE202
+DetectDECTURBOTP
+DetectDECDEPCAJRTP
+DetectDECTURBO
+DetectDECDEPCAJR
+DetectDECDEPCA
+DetectUBNIUPCEOTP
+DetectUBPCNIC
+DetectUBNIUPCTR
+DetectUBPCNIUEX512
+DetectUBPCNIUEX128
+DetectUBPCNIU
+DetectUBNIUPC
+DetectOtherNDIS
+DetectLanMan
+DetectWFW
+DetectChiNet
+DetectNetMCA
+DetectNetEISA
+DetectIPXCOM
+DetectIPXODI
+DetectLantastic
+DetectMitsumi
+DetectSonyCD
+DetectPCIC
+DetectV7
+DetectCTSVGA
+DetectTrident
+DetectOak
+DetectWonder
+DetectCPQ2000
+DetectMatrox
+DetectCT545
+DetectAVGA
+DetectQV
+DetectXGA2
+DetectXGA
+DetectT13B
+DetectPC2x
+DetectDPTISA
+DetectSpock
+DetectBusLogic
+DetectFD7000ex
+DetectFD18xx
+DetectIN2000
+DetectFD8xx
+DetectNCR700
+DetectDPTEISA
+DetectUSC124
+DetectUSC24x
+DetectNCRACU
+DetectVxP500
+DetectJazz
+DetectPAS
+DetectOPTIMediaCHIPS
+DetectMCAGame
+DetectELnkPlus
+DetectArcNet
+DetectELnk16
+DetectELnkI
+DetectCTron21
+DetectKodiakNote
+DetectKodiakServe
+DetectKodiakDual
+DetectKodiakUTP
+DetectKodiakQuad
+DetectKodiak
+DetectEverex
+DetectAM2100
+DetectRI6510
+DetectNE1500
+DetectExos105
+DetectELnkII
+DetectIntel595
+DetectEE16
+DetectNE1Clone
+DetectNE2Clone
+DetectTC5043
+DetectCTron20
+DetectZStation
+DetectArtisoftAE2
+DetectNE2000
+DetectArtisoftAE1
+DetectNE1000
+DetectTCToken
+DetectHPTLANPlus
+DetectHPTwistPlus
+DetectRadisys
+DetectTCTropic
+DetectZNote
+DetectDECEE102
+DetectDECDE102
+DetectDECDE202
+DetectDECTURBOTP
+DetectDECDEPCAJRTP
+DetectDECTURBO
+DetectDECDEPCAJR
+DetectDECDEPCA
+DetectUBNIUPCEOTP
+DetectUBPCNIC
+DetectUBNIUPCTR
+DetectUBPCNIUEX512
+DetectUBPCNIUEX128
+DetectUBPCNIU
+DetectUBNIUPC
+DetectOtherNDIS
+DetectLanMan
+DetectWFW
+DetectChiNet
+DetectNetMCA
+DetectNetEISA
+DetectIPXCOM
+DetectIPXODI
+DetectLantastic
+unknown
+[OEMSkipEnduser]
+Adapter
+pcmcia
+ports
+DetectAssumeVGA
+DetectV7
+DetectCTSVGA
+DetectTrident
+DetectOak
+DetectWonder
+DetectTseng
+DetectCPQ2000
+DetectMatrox
+DetectCT545
+DetectAVGA
+DetectQV
+DetectTsengW128
+DetectTsengW32
+DetectXGA2
+DetectXGA
+DetectWDLapTop
+DetectWDDeskTop
+DetectS3
+DetectS3801
+DetectCirrusDeskTop
+DetectCirrusLapTop
+DetectCirrusMMapped
+DetectMach8
+DetectMach32
+DetectMach64
+mouse
+SCSIAdapter
+media
+net
+unknown
+Adapter
+pcmcia
+ports
+DetectAssumeVGA
+DetectV7
+DetectCTSVGA
+DetectTrident
+DetectOak
+DetectWonder
+DetectTseng
+DetectCPQ2000
+DetectMatrox
+DetectCT545
+DetectAVGA
+DetectQV
+DetectTsengW128
+DetectTsengW32
+DetectXGA2
+DetectXGA
+DetectWDLapTop
+DetectWDDeskTop
+DetectS3
+DetectS3801
+DetectCirrusDeskTop
+DetectCirrusLapTop
+DetectCirrusMMapped
+DetectMach8
+DetectMach32
+DetectMach64
+mouse
+SCSIAdapter
+media
+net
+unknown
+

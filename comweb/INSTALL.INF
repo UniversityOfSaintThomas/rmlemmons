@@ -1,0 +1,60 @@
+[Application] 
+AppName=Slide Show Installation
+Collection=The Anthony Casay Collection
+DefDir=C:\SLIDESHW
+SpaceNeeded=2000
+DefPMGroup=SLIDESHW.GRP, Slide Show
+OEM=
+HomeBase=Portland, Oregon
+Phone=2210920
+Prefix=1503
+
+[Disks] 
+1=Install Disk #1
+2=Program Disk #2
+
+[Dirs] 
+1=.
+2=IMAGES
+3=IMAGES\CASAY
+
+; Desc, Name, Dir #, Disk #, WinDir, LZFile
+[Files] 
+Anthony Casay Reference, CASAY.REF , 3, 1, 0, N
+Treasured Moment, CASAY01.SNX, 3, 1, 0, N
+Path of Tranquility, CASAY02.SNX, 3, 1, 0, N
+Northern Waters, CASAY03.SNX, 3, 1, 0, N
+Guardians of Time, CASAY04.SNX, 3, 1, 0, N
+Seaworld, CASAY05.SNX, 3, 1, 0, N
+Moonlight Rhapsody II, CASAY06.SNX, 3, 1, 0, N
+Midnight Reflections, CASAY07.SNX, 3, 1, 0, N
+Guiding Light, CASAY08.SNX, 3, 1, 0, N
+Crystal Waters, CASAY09.SNX, 3, 1, 0, N
+Starbrite, CASAY10.SNX, 3, 1, 0, N
+Coastal Sunset, CASAY11.SNX, 3, 1, 0, N
+Moon Castle, CASAY12.SNX, 3, 1, 0, N
+Seal With A Kiss, CASAY13.SNX, 3, 1, 0, N
+Freedom In Lahaina, CASAY14.SNX, 3, 1, 0, N
+Long Finned Fish, CASAY15.SNX, 3, 1, 0, N
+Lanai, CASAY16.SNX, 3, 1, 0, N
+Golden Tale, CASAY17.SNX, 3, 1, 0, N
+Light Along the Shore, CASAY18.SNX, 3, 1, 0, N
+Northern Sea, CASAY19.SNX, 3, 1, 0, N
+Pacific Rays, CASAY20.SNX, 3, 1, 0, N
+Desert Bloom, CASAY21.SNX, 3, 1, 0, N
+Moonlight Rendezvous, CASAY22.SNX, 3, 1, 0, N
+Images Catalog #1, SNSI01.CAT, 3, 1, 0, N
+Images Catalog #2, SNSI02.CAT, 3, 1, 0, N
+Nature Conservancy Reference File, GENERIC.REF, 3, 1, 0, N
+Landscape Bitmap, BMP.GNR, 3, 1, 0, N
+Uninstall, INSTALL.EXE, 1, 1, 0, N
+Uninstall Information, INSTALL.INF, 1, 1, 0, N
+
+
+; Directory #, Command line, Description
+[PM Info] 
+1, WALLPAPR.EXE, Slide Show
+1, INSTALL.EXE /U, Uninstall Slide Show
+
+[End]
+

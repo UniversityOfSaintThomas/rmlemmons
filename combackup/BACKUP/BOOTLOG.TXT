@@ -1,0 +1,5 @@
+[000D7A08] Loading Device = C:\FACTONLY\HIMEM.SYS
+(Logo disabled)
+[000D7A0A] LoadSuccess    = C:\FACTONLY\HIMEM.SYS
+[000D7A0A] Loading Device = C:\FACTONLY\DISPLAY.SYS
+[000D7A0B] LoadSuccess    = C:\FACTONLY\DISPLAY.SYS

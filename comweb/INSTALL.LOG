@@ -1,0 +1,69 @@
+Ocean Explorer's install log
+7/10/2000     2:08 PM
+
+Active windows directory detected - C:\WINDOWS
+Active system directory detected - C:\WINDOWS\SYSTEM
+Windows version detected - Windows version 3.95
+
+CD detected - E:\
+Quicktime not detected.
+User opted to install Quicktime 2.0.1...
+
+
+Copying: [E:\BIN\QTWWIN\PLAYENU.DLL] to [C:\WINDOWS\PLAYENU.DLL] Successful
+Copying: [E:\BIN\QTWWIN\PLAYENU.HLP] to [C:\WINDOWS\PLAYENU.HLP] Successful
+Copying: [E:\BIN\QTWWIN\PLAYER.EXE] to [C:\WINDOWS\PLAYER.EXE] Successful
+Copying: [E:\BIN\QTWWIN\QTW.INI] to [C:\WINDOWS\QTW.INI] Successful
+Copying: [E:\BIN\QTWWIN\VIEWENU.DLL] to [C:\WINDOWS\VIEWENU.DLL] Successful
+Copying: [E:\BIN\QTWWIN\VIEWENU.HLP] to [C:\WINDOWS\VIEWENU.HLP] Successful
+Copying: [E:\BIN\QTWWIN\VIEWER.EXE] to [C:\WINDOWS\VIEWER.EXE] Successful
+Copying: [E:\BIN\QTWSYS\DHIO_DH.QTC] to [C:\WINDOWS\SYSTEM\DHIO_DH.QTC] Successful
+Copying: [E:\BIN\QTWSYS\MCIQTENU.DLL] to [C:\WINDOWS\SYSTEM\MCIQTENU.DLL] Successful
+Copying: [E:\BIN\QTWSYS\MCIQTW.DRV] to [C:\WINDOWS\SYSTEM\MCIQTW.DRV] Successful
+Copying: [E:\BIN\QTWSYS\NAVG.QTC] to [C:\WINDOWS\SYSTEM\NAVG.QTC] Successful
+Copying: [E:\BIN\QTWSYS\QCMC.QTC] to [C:\WINDOWS\SYSTEM\QCMC.QTC] Successful
+Copying: [E:\BIN\QTWSYS\QTCVID.QTC] to [C:\WINDOWS\SYSTEM\QTCVID.QTC] Successful
+Copying: [E:\BIN\QTWSYS\QTHNDLR.DLL] to [C:\WINDOWS\SYSTEM\QTHNDLR.DLL] Successful
+Copying: [E:\BIN\QTWSYS\QTIM.DLL] to [C:\WINDOWS\SYSTEM\QTIM.DLL] Successful
+Copying: [E:\BIN\QTWSYS\QTIMCMGR.DLL] to [C:\WINDOWS\SYSTEM\QTIMCMGR.DLL] Successful
+Copying: [E:\BIN\QTWSYS\QTIV32.QTC] to [C:\WINDOWS\SYSTEM\QTIV32.QTC] Successful
+Copying: [E:\BIN\QTWSYS\QTIYVU9.QTC] to [C:\WINDOWS\SYSTEM\QTIYVU9.QTC] Successful
+Copying: [E:\BIN\QTWSYS\QTJPEG.QTC] to [C:\WINDOWS\SYSTEM\QTJPEG.QTC] Successful
+Copying: [E:\BIN\QTWSYS\QTMOVIE.VBX] to [C:\WINDOWS\SYSTEM\QTMOVIE.VBX] Successful
+Copying: [E:\BIN\QTWSYS\QTNOTIFY.EXE] to [C:\WINDOWS\SYSTEM\QTNOTIFY.EXE] Successful
+Copying: [E:\BIN\QTWSYS\QTOLD.QTC] to [C:\WINDOWS\SYSTEM\QTOLD.QTC] Successful
+Copying: [E:\BIN\QTWSYS\QTOLE.DLL] to [C:\WINDOWS\SYSTEM\QTOLE.DLL] Successful
+Copying: [E:\BIN\QTWSYS\QTPIC.VBX] to [C:\WINDOWS\SYSTEM\QTPIC.VBX] Successful
+Copying: [E:\BIN\QTWSYS\QTRAW.QTC] to [C:\WINDOWS\SYSTEM\QTRAW.QTC] Successful
+Copying: [E:\BIN\QTWSYS\QTRLE.QTC] to [C:\WINDOWS\SYSTEM\QTRLE.QTC] Successful
+Copying: [E:\BIN\QTWSYS\QTRPZA.QTC] to [C:\WINDOWS\SYSTEM\QTRPZA.QTC] Successful
+Copying: [E:\BIN\QTWSYS\QTRT21.QTC] to [C:\WINDOWS\SYSTEM\QTRT21.QTC] Successful
+Copying: [E:\BIN\QTWSYS\QTSMC.QTC] to [C:\WINDOWS\SYSTEM\QTSMC.QTC] Successful
+Copying: [E:\BIN\QTWSYS\QTVHDW.QTC] to [C:\WINDOWS\SYSTEM\QTVHDW.QTC] Successful
+Copying: [E:\BIN\QTWSYS\REELMGIC.QTC] to [C:\WINDOWS\SYSTEM\REELMGIC.QTC] Successful
+Backed up file [C:\WINDOWS\WIN.INI] to [C:\WINDOWS\WIN.QTW]
+Backed up file [C:\WINDOWS\SYSTEM.INI] to [C:\WINDOWS\SYSTEM.QTW]
+
+
+
+Updates to WIN.INI
+Extensions mov C:\WINDOWS\PLAYER.EXE
+Extensions pic C:\WINDOWS\VIEWER.EXE
+MCI Extensions mov QTWVIDEO
+MCI Extensions pic QTWVIDEO
+MCI Extensions jpg QTWVIDEO
+Mach DeviceBitmaps off
+QuickTime for Windows Implementation Full
+
+Updates to SYSTEM.INI:
+MCI QTWVIDEO C:\WINDOWS\SYSTEM\mciqtw.drv
+Macx DeviceBitmaps OFF
+
+
+Copied file [E:\BIN\ocean.ico] to [C:\WINDOWS\ocean.ico] Successful
+Added 'Ocean Explorers' program item.
+Path:  [E:\EXPLORER.EXE]
+Icon Path:  [C:\WINDOWS\ocean.ico]
+Added 'Ocean Explorers Read Me' program item.
+Path:  [E:\BIN\README.WRI]
+

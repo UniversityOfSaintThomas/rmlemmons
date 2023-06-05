@@ -1,0 +1,13 @@
+/**********************************/
+/* Developed by Exit1, Inc.       */
+/* Copyright 2003                 */
+/* http://www.exit1.com           */
+/**********************************/
+
+h1 {  font-family: Georgia, "Times New Roman", Times, serif; font-size: x-large; font-style: normal; font-weight: bold; color: #000066; font-variant: small-caps}
+h2 {  font-family: Georgia, "Times New Roman", Times, serif; font-size: large; font-style: normal; font-weight: bold; color: #000066; font-variant: small-caps}
+h3 {  font-family: Georgia, "Times New Roman", Times, serif; font-size: medium; font-style: normal; font-weight: bold; color: #000066; font-variant: small-caps}
+h4 {  font-family: Georgia, "Times New Roman", Times, serif; font-size: medium; font-style: normal; font-weight: normal; color: #000066; font-variant: small-caps}
+p, td, ul, ol, form { font-family: Georgia, "Times New Roman", Times, serif; font-size: small; font-style: normal; font-weight: normal; color: #000000} 
+.bottom_nav {  font-family: Georgia, "Times New Roman", Times, serif; font-size: 12px; color: #FFFFFF}
+.bottom_nav_sub {  font-family: Georgia, "Times New Roman", Times, serif; font-size: 12px; color: #000000}

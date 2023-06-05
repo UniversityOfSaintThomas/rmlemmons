@@ -1,0 +1,60 @@
+
+[Application]
+AppName=Slide Show Installation
+Collection=The Grand Cosmos
+DefDir=C:\SLIDESHW
+SpaceNeeded=1054
+DefPMGroup=SLIDESHW.GRP, Slide Show
+OEM=
+HomeBase=Portland, Oregon
+Phone=2210920
+Prefix=1503
+
+[Disks]
+1=Install Disk #1
+2=Program Disk #2
+
+[Dirs]
+1=.
+2=IMAGES
+3=IMAGES\cosmos
+
+; Desc, Name, Dir #, Disk #, WinDir, LZFile
+[Files]
+Formation of Earth's Atmosphere--Miller, cosmos01.SNX, 3, 1, 0, N
+Moon Colony and Solar Eclipse--Hartmann, cosmos02.SNX, 3, 1, 0, N
+Cloudscape on Gas Giant Planet--Miller, cosmos03.SNX, 3, 1, 0, N
+Milky Way Galaxy--Hartmann, cosmos04.SNX, 3, 1, 0, N
+A Planet of a Double Star--Miller, cosmos05.SNX, 3, 1, 0, N
+On the Primordial Moon--Hartmann, cosmos06.SNX, 3, 1, 0, N
+Double Rainbows from a Double Sun--Miller, cosmos07.SNX, 3, 1, 0, N
+Jupiter's Satellite Io--Hartmann, cosmos08.SNX, 3, 1, 0, N
+Saturn from Enceladus--Miller, cosmos09.SNX, 3, 1, 0, N
+MIR Space Station at Dawn--Hartmann, cosmos10.SNX, 3, 1, 0, N
+Double Star Zeta Piscium--Miller, cosmos11.SNX, 3, 1, 0, N
+Collision with Early Earth--Hartmann, cosmos12.SNX, 3, 1, 0, N
+Red Giant Star Mira Ceti--Miller, cosmos13.SNX, 3, 1, 0, N
+Lost Planet--Hartmann, cosmos14.SNX, 3, 1, 0, N
+Primordial Earth's Surface--Miller, cosmos15.SNX, 3, 1, 0, N
+Black Hole Accretion Disk--Hartmann, cosmos16.SNX, 3, 1, 0, N
+Shadow Cast by a Pleiades--Miller, cosmos17.SNX, 3, 1, 0, N
+In Saturn's Rings--Hartmann, cosmos18.SNX, 3, 1, 0, N
+Planet Near a Jetting Galaxy--Miller, cosmos19.SNX, 3, 1, 0, N
+Comet and Asteroid--Hartmann, cosmos20.SNX, 3, 1, 0, N
+Colliding Worlds--Miller, cosmos21.SNX, 3, 1, 0, N
+Nightside of Earth--Hartmann, cosmos22.SNX, 3, 1, 0, N
+Images Catalog #1, SNSI01.CAT, 3, 1, 0, N
+Images Catalog #2, SNSI02.CAT, 3, 1, 0, N
+Reference File #1, COSMOS.REF, 3, 1, 0, N
+Reference File #2, COSMOSM.REF, 3, 1, 0, N
+Reference File #3, GENERIC.REF, 3, 1, 0, N
+Button Bitmap File #1, BMP.GNR, 3, 1, 0, N
+Uninstall, INSTALL.EXE, 1, 1, 0, N
+Uninstall Information, INSTALL.INF, 1, 1, 0, N
+
+; Directory #, Command line, Description
+[PM Info]
+1, WALLPAPR.EXE, Slide Show
+1, INSTALL.EXE /U, Uninstall Slide Show
+
+[End]

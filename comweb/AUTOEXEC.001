@@ -1,0 +1,45 @@
+SET BLASTER=A220 I5 D1 T4
+REM [Header]
+@ECHO OFF
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+REM [CD-ROM Drive]
+
+REM C:\WINDOWS\COMMAND\MSCDEX.EXE /D:MSCD001
+
+REM [Display]
+
+REM MODE CON: COLS=80 LINES=25
+
+REM [Sound, MIDI, or Video Capture Card]
+
+REM SOUNDTST.COM
+
+REM [Mouse]
+
+REM MOUSE.COM
+
+REM [Miscellaneous]
+
+
+REM ******* DO NOT REMOVE *****
+C:\DELL\USBINFO.EXE /FIX
+REM ******* DO NOT REMOVE *****
+SET WIN32DMIPATH=C:\DMI\

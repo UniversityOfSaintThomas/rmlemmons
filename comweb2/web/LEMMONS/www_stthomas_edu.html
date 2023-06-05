@@ -1,0 +1,324 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+   <TITLE>University of St. Thomas, Minnesota</TITLE>
+   <META NAME="GENERATOR" CONTENT="Mozilla/3.03Gold (Win95; I) [Netscape]">
+<SCRIPT Language="JavaScript">
+
+<!--
+
+// Copyright (c) Mark Epperson 1996. (epperson@ix.netcom.com)
+
+
+var host = "";
+
+var hostname;
+
+var protocol;
+
+var port;
+
+var path;
+
+
+
+function ParseURL(url) {
+
+ if (url == "")
+
+ {
+
+ 	host = "";
+
+ 	return;
+
+ }
+
+
+
+ var ix = url.indexOf("://");
+
+ if (ix == -1) {
+
+  protocol = "http";
+
+  ix = 0;
+
+ } else {
+
+     protocol = url.substring(0, ix);
+
+  ix += 3;
+
+ }
+
+
+
+ var pathname;
+
+ var jx = url.indexOf("/", ix);
+
+ if (jx == -1) {
+
+  hostname= url;
+
+  pathname = "";
+
+ } else {
+
+  hostname = url.substring(ix, jx);
+
+  pathname = url.substring(jx + 1, url.length);
+
+ } 
+
+
+
+ if (hostname == "")
+
+ 	host = port = "";
+
+ else {
+
+  ix = hostname.indexOf(":");
+
+  if (ix == -1) {
+
+   host = hostname;
+
+   port = "";
+
+  } else {
+
+   host = hostname.substring(0, ix);
+
+   port = hostname.substring(ix + 1, hostname.length);
+
+  }
+
+ }
+
+
+
+ if (pathname == "")
+
+ 	path = "";
+
+ else {
+
+  ix = pathname.indexOf(".");
+
+  if (ix == -1)
+
+   path = pathname;
+
+  else {
+
+   for (jx = ix - 1; jx >= 0 && pathname.charAt(jx) != "/"; jx--);
+
+   if (jx == -1)
+
+    path = "";
+
+   else
+
+    path = pathname.substring(0, jx);
+
+  }
+
+ }
+
+}
+
+
+
+// replace one delimiter with another
+
+function ChangeDelimiters(str, delimiter, replacment) {
+
+ var jx = 0;
+
+ var saveIx = 0;
+
+ str += delimiter;
+
+ var result = "";
+
+ while (jx < str.length)
+
+ {
+
+  saveIx = jx;
+
+  jx = str.indexOf(delimiter, saveIx);
+
+  if (jx == -1)
+
+   break;
+
+
+
+  result += replacment;
+
+  result += str.substring(saveIx, jx);
+
+  jx = jx + 1;
+
+ }
+
+ return result;
+
+}
+
+
+
+// change the delimiters in the location so altavista can digest them
+
+function AltaVistaLocation()
+
+{
+
+ ParseURL(document.sitesearch.site.value);
+
+ if (host == "")
+
+ 	return "";
+
+ loc = "%2Burl%3A" + protocol + "%3A%2F%2F" + host;
+
+
+
+ if (port != "")
+
+  loc += "%3A" + port;
+
+
+
+ if (path != "")
+
+  loc += ChangeDelimiters(path, "/", "%2F");
+
+ return loc + "%2F";
+
+}
+
+ 
+
+// create a query composed of the altavista site, our site and
+
+// the conactenated keywords and submit it
+
+function search()
+
+{
+
+ var location = "http://altavista.digital.com/cgi-bin/query?pg=q&what=web&fmt=.&q=";
+
+ var str = document.sitesearch.keywords.value;
+
+
+
+ location += AltaVistaLocation();
+
+
+
+ if (str != "")
+
+  location += ChangeDelimiters(str, " ", "+%2B");
+
+
+
+ window.open(location, "content");
+
+}
+
+
+
+function here() {
+
+ ParseURL(window.location.href);
+
+
+
+ if (host != "")
+
+  document.sitesearch.site.value = protocol + "://" + hostname + "/" + path;
+
+}
+
+
+
+<!-- done hiding from old browsers -->
+
+</SCRIPT>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" LINK="#771F85" VLINK="#858585" ALINK="#FFFFFF" onLoad="here()">
+
+<CENTER><P><IMG SRC="purpbanner.gif" ALT="University of St. Thomas" HEIGHT=112 WIDTH=455><BR>
+<IMG SRC="archestag.gif" ALT="Come prepared to learn, leave prepared to succeed" HEIGHT=172 WIDTH=203><BR>
+<A HREF="http://www.stthomas.edu/www/ptia/splash/index.html"><IMG SRC="ptia2.gif" ALT="putting thought into action" BORDER=0 HEIGHT=54 WIDTH=250></A><BR>
+<A HREF="http://www.stthomas.edu/www/academic.html"><IMG SRC="apbut.gif" ALT="academic programs button" BORDER=0 HEIGHT=54 WIDTH=125></A><A HREF="http://www.stthomas.edu/www/alladmissions.html"><IMG SRC="admbut.gif" ALT="admissions button" BORDER=0 HEIGHT=54 WIDTH=125></A><BR>
+<A HREF="http://www.stthomas.edu/www/student.html"><IMG SRC="slbut.gif" ALT="student life button" BORDER=0 HEIGHT=54 WIDTH=125></A><A HREF="http://www.stthomas.edu/www/athletics.html"><IMG SRC="athbut.gif" ALT="athletics button" BORDER=0 HEIGHT=54 WIDTH=125></A><BR>
+<A HREF="http://www.stthomas.edu/www/news.html"><IMG SRC="nebut.gif" ALT="news and events button" BORDER=0 HEIGHT=54 WIDTH=125></A><A HREF="http://www.stthomas.edu/www/cenins.html"><IMG SRC="cibut.gif" ALT="centers and institutes button" BORDER=0 HEIGHT=54 WIDTH=125></A><BR>
+<A HREF="http://www.lib.stthomas.edu"><IMG SRC="libbut.gif" ALT="library button" BORDER=0 HEIGHT=54 WIDTH=125></A><A HREF="http://www.stthomas.edu/www/tech.html"><IMG SRC="techbut.gif" ALT="technology on campus button" BORDER=0 HEIGHT=54 WIDTH=125></A><BR>
+<A HREF="http://www.stthomas.edu/www/admin.html"><IMG SRC="asbut.gif" ALT="administrative services button" BORDER=0 HEIGHT=54 WIDTH=125></A><A HREF="http://www.stthomas.edu/www/caminfo.html"><IMG SRC="cinfbut.gif" ALT="campus information button" BORDER=0 HEIGHT=54 WIDTH=125></A><BR>
+<A HREF="http://www.stthomas.edu/www/alumni_http/index.html"><IMG SRC="aabut.gif" ALT="alumni association button" BORDER=0 HEIGHT=54 WIDTH=125></A><A HREF="http://www.stthomas.edu/www/dev_http/d0.html"><IMG SRC="supportbut.gif" ALT="supporting st. thomas button" BORDER=0 HEIGHT=54 WIDTH=125></A><BR>
+</P></CENTER>
+
+<CENTER><P><IMG SRC="stmpls.gif" ALT="St. Paul and Minneapolis, Minnesota" HEIGHT=35 WIDTH=342></P></CENTER>
+
+<CENTER><P>
+<HR size=2></P></CENTER>
+
+<CENTER><P><A HREF="http://www.stthomas.edu/www/new.html"><IMG SRC="whatsnew.gif" ALT="what's new! button" BORDER=0 HEIGHT=54 WIDTH=125></A>
+<A HREF="http://www.stthomas.edu/www/construction.html"><IMG SRC="construction.gif" ALT="construction button" BORDER=0 HEIGHT=54 WIDTH=125></A>
+<A HREF="http://www.stthomas.edu/www/hot.html"><IMG SRC="whatshot.gif" ALT="what's hot! button" BORDER=0 HEIGHT=54 WIDTH=125></A></P></CENTER>
+
+<CENTER><P>
+<HR size=2></P></CENTER>
+
+<CENTER><P><BR>
+[ <A HREF="http://www.stthomas.edu/www/ptia/splash/index.html">Putting
+Thought Into Action</A> ] <BR>
+[ <A HREF="http://www.stthomas.edu/www/academic.html">Academic Programs</A>
+] [ <A HREF="http://www.stthomas.edu/www/alladmissions.html">Admissions</A>
+] [ <A HREF="http://www.stthomas.edu/www/student.html">Student Life</A>
+] <BR>
+[ <A HREF="http://www.stthomas.edu/www/athletics.html">Athletics</A> ]
+[ <A HREF="http://www.stthomas.edu/www/news.html">News and Events</A> ]
+[ <A HREF="http://www.stthomas.edu/www/cenins.html">Centers and Institutes</A>
+] <BR>
+[ <A HREF="http://www.lib.stthomas.edu">Libraries</A> ] [ <A HREF="http://www.stthomas.edu/www/tech.html">Technology
+on Campus</A> ] [ <A HREF="http://www.stthomas.edu/www/admin.html">Administrative
+Services</A> ] <BR>
+[ <A HREF="http://www.stthomas.edu/www/caminfo.html">Campus Information</A>
+] [ <A HREF="http://www.stthomas.edu/www/alumni_http/index.html">Alumni
+Association</A> ] [ <A HREF="http://www.stthomas.edu/www/dev_http/d0.html">Supporting
+St. Thomas</A> ] <BR>
+[ <A HREF="http://www.stthomas.edu/www/new.html">What's NEW!</A> ] [ <A HREF="http://www.stthomas.edu/www/construction.html">Construction
+on Campus</A> ] [ <A HREF="http://www.stthomas.edu/www/hot.html">What's
+HOT!</A> ] <BR>
+<BR>
+</P></CENTER>
+
+<CENTER><P><IMG SRC="mailbox.gif" HEIGHT=34 WIDTH=29><FONT SIZE=+2><A HREF="http://www.stthomas.edu/www/comments.html">
+Comments and Questions</A></FONT><IMG SRC="mailbox.gif" HEIGHT=34 WIDTH=29></P></CENTER>
+
+<CENTER><P><BR>
+</P></CENTER>
+
+<CENTER><P><IMG SRC="ustid.gif" ALT="St. Thomas graphic identity" HEIGHT=107 WIDTH=203></P></CENTER>
+
+<CENTER><P>Copyright &copy;1996-97, University of St. Thomas<BR>
+<I>This site was last modified on 9/17/97<BR>
+</I>URL Location: http://www.stthomas.edu/www/index.html<BR>
+<FORM name="sitesearch">Search Web site <INPUT type="text" name="site" size=45><BR>
+for the following keyword(s) <INPUT type="text" name="keywords" size=30 value="">using
+<A HREF="http://www.altavista.digital.com/">Alta Vista</A>.<BR>
+<INPUT type="button" value="Search for my keyword(s)" onClick="search()" size=20></FORM>Do
+you need help in using this search engine? If so, please<BR>
+check out our <A HREF="http://www.stthomas.edu/www/searchhelp.html">Search
+Guide</A> for more information. </P></CENTER>
+
+</BODY>
+</HTML>

@@ -1,0 +1,10 @@
+-ERROR-(403):  Access to object is _ruled_ out.
+Requested method: GET
+Requested URL:    /phil_http/lemmons/sail_set.jpg
+HTTP protocol:    HTTP/1.0
+
+-------- additional request headers --------
+Connection: Keep-Alive
+User-Agent: Mozilla/3.01Gold (Win95; I)
+Host: www.stthomas.edu
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, */*

@@ -1,0 +1,380 @@
+***  Installation Started 11/16/98 15:49  ***
+Title: Slideshow Installation
+Source: E:\INSTALL.EXE
+Made Dir: C:\SLIDESHW
+File Copy: C:\SLIDESHW\UNWISE.EXE
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\Slideshow
+RegDB Val: Slideshow
+RegDB Name: DisplayName
+RegDB Root: 2
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\Slideshow
+RegDB Val: C:\SLIDESHW\UNWISE.EXE C:\SLIDESHW\INSTALL.LOG
+RegDB Name: UninstallString
+RegDB Root: 2
+Made Dir: C:\SLIDESHW\Images
+File Copy: C:\SLIDESHW\Images\RENAMEIT.EXE
+File Copy: C:\SLIDESHW\Images\SNORDER.EXE
+File Copy: C:\SLIDESHW\Images\CLICK.WAV
+File Copy: C:\SLIDESHW\Images\WHEELS.JPG
+File Copy: C:\SLIDESHW\Images\CASTLES.JPG
+File Copy: C:\SLIDESHW\Images\FANTASY.JPG
+File Copy: C:\SLIDESHW\Images\FINEART.JPG
+File Copy: C:\SLIDESHW\Images\NATURE.JPG
+File Copy: C:\SLIDESHW\Images\PLANES.JPG
+File Copy: C:\SLIDESHW\Images\POPART.JPG
+File Copy: C:\SLIDESHW\Images\SMITHSON.JPG
+File Copy: C:\SLIDESHW\Images\SPACE.JPG
+File Copy: C:\SLIDESHW\Images\SPORTS.JPG
+File Copy: C:\SLIDESHW\Images\QUICKCAT.DAT
+File Copy: C:\SLIDESHW\Images\REMINDER.INI
+File Copy: C:\SLIDESHW\Images\REMINDER.BMP
+File Copy: C:\SLIDESHW\Images\2000.CAT
+File Copy: C:\SLIDESHW\Images\2010.CAT
+File Copy: C:\SLIDESHW\Images\2020.CAT
+File Copy: C:\SLIDESHW\Images\2030.CAT
+File Copy: C:\SLIDESHW\Images\2040.CAT
+File Copy: C:\SLIDESHW\Images\2050.CAT
+File Copy: C:\SLIDESHW\Images\2060.CAT
+File Copy: C:\SLIDESHW\Images\2070.CAT
+File Copy: C:\SLIDESHW\Images\2080.CAT
+File Copy: C:\SLIDESHW\Images\2090.CAT
+File Copy: C:\SLIDESHW\Images\2100.CAT
+File Copy: C:\SLIDESHW\Images\2110.CAT
+File Copy: C:\SLIDESHW\Images\2120.CAT
+File Copy: C:\SLIDESHW\Images\2130.CAT
+File Copy: C:\SLIDESHW\Images\2140.CAT
+File Copy: C:\SLIDESHW\Images\2170.CAT
+File Copy: C:\SLIDESHW\Images\2180.CAT
+File Copy: C:\SLIDESHW\Images\2190.CAT
+File Copy: C:\SLIDESHW\Images\2200.CAT
+File Copy: C:\SLIDESHW\Images\2210.CAT
+File Copy: C:\SLIDESHW\Images\2230.CAT
+File Copy: C:\SLIDESHW\Images\2240.CAT
+File Copy: C:\SLIDESHW\Images\2250.CAT
+File Copy: C:\SLIDESHW\Images\2260.CAT
+File Copy: C:\SLIDESHW\Images\2270.CAT
+File Copy: C:\SLIDESHW\Images\2280.CAT
+File Copy: C:\SLIDESHW\Images\2290.CAT
+File Copy: C:\SLIDESHW\Images\2320.CAT
+File Copy: C:\SLIDESHW\Images\2330.CAT
+File Copy: C:\SLIDESHW\Images\2340.CAT
+File Copy: C:\SLIDESHW\Images\2350.CAT
+File Copy: C:\SLIDESHW\Images\2360.CAT
+File Copy: C:\SLIDESHW\Images\2370.CAT
+File Copy: C:\SLIDESHW\Images\2390.CAT
+File Copy: C:\SLIDESHW\Images\2400.CAT
+File Copy: C:\SLIDESHW\Images\2410.CAT
+File Copy: C:\SLIDESHW\Images\2420.CAT
+File Copy: C:\SLIDESHW\Images\2430.CAT
+File Copy: C:\SLIDESHW\Images\2440.CAT
+File Copy: C:\SLIDESHW\Images\2450.CAT
+File Copy: C:\SLIDESHW\Images\2460.CAT
+File Copy: C:\SLIDESHW\Images\2470.CAT
+File Copy: C:\SLIDESHW\Images\2480.CAT
+File Copy: C:\SLIDESHW\Images\2490.CAT
+File Copy: C:\SLIDESHW\Images\2510.CAT
+File Copy: C:\SLIDESHW\Images\2520.CAT
+File Copy: C:\SLIDESHW\Images\2570.CAT
+File Copy: C:\SLIDESHW\Images\2580.CAT
+File Copy: C:\SLIDESHW\Images\2590.CAT
+File Copy: C:\SLIDESHW\Images\2610.CAT
+File Copy: C:\SLIDESHW\Images\2620.CAT
+File Copy: C:\SLIDESHW\Images\2630.CAT
+File Copy: C:\SLIDESHW\Images\2640.CAT
+File Copy: C:\SLIDESHW\Images\2650.CAT
+File Copy: C:\SLIDESHW\Images\2660.CAT
+File Copy: C:\SLIDESHW\Images\2670.CAT
+File Copy: C:\SLIDESHW\Images\2680.CAT
+File Copy: C:\SLIDESHW\Images\2690.CAT
+File Copy: C:\SLIDESHW\Images\2700.CAT
+File Copy: C:\SLIDESHW\Images\2710.CAT
+File Copy: C:\SLIDESHW\Images\2720.CAT
+File Copy: C:\SLIDESHW\Images\2730.CAT
+File Copy: C:\SLIDESHW\Images\2740.CAT
+File Copy: C:\SLIDESHW\Images\2750.CAT
+File Copy: C:\SLIDESHW\Images\2760.CAT
+File Copy: C:\SLIDESHW\Images\2770.CAT
+File Copy: C:\SLIDESHW\Images\2780.CAT
+File Copy: C:\SLIDESHW\Images\2790.CAT
+File Copy: C:\SLIDESHW\Images\2800.CAT
+File Copy: C:\SLIDESHW\Images\2810.CAT
+File Copy: C:\SLIDESHW\Images\2820.CAT
+File Copy: C:\SLIDESHW\Images\2830.CAT
+File Copy: C:\SLIDESHW\Images\2840.CAT
+File Copy: C:\SLIDESHW\Images\2850.CAT
+File Copy: C:\SLIDESHW\Images\2860.CAT
+File Copy: C:\SLIDESHW\Images\2870.CAT
+File Copy: C:\SLIDESHW\Images\2880.CAT
+File Copy: C:\SLIDESHW\Images\2890.CAT
+File Copy: C:\SLIDESHW\Images\2900.CAT
+File Copy: C:\SLIDESHW\Images\2910.CAT
+File Copy: C:\SLIDESHW\Images\2920.CAT
+File Copy: C:\SLIDESHW\Images\2930.CAT
+File Copy: C:\SLIDESHW\Images\2940.CAT
+File Copy: C:\SLIDESHW\Images\2950.CAT
+File Copy: C:\SLIDESHW\Images\2960.CAT
+File Copy: C:\SLIDESHW\Images\2970.CAT
+File Copy: C:\SLIDESHW\Images\2980.CAT
+File Copy: C:\SLIDESHW\Images\2990.CAT
+File Copy: C:\SLIDESHW\Images\3000.CAT
+File Copy: C:\SLIDESHW\Images\3010.CAT
+File Copy: C:\SLIDESHW\Images\3020.CAT
+File Copy: C:\SLIDESHW\Images\3060.CAT
+File Copy: C:\SLIDESHW\Images\3080.CAT
+File Copy: C:\SLIDESHW\Images\3090.CAT
+File Copy: C:\SLIDESHW\Images\3100.CAT
+File Copy: C:\SLIDESHW\Images\3110.CAT
+File Copy: C:\SLIDESHW\Images\3120.CAT
+File Copy: C:\SLIDESHW\Images\3130.CAT
+File Copy: C:\SLIDESHW\Images\3140.CAT
+File Copy: C:\SLIDESHW\Images\3150.CAT
+File Copy: C:\SLIDESHW\Images\3160.CAT
+File Copy: C:\SLIDESHW\Images\3170.CAT
+File Copy: C:\SLIDESHW\Images\3180.CAT
+File Copy: C:\SLIDESHW\Images\3190.CAT
+File Copy: C:\SLIDESHW\Images\3200.CAT
+File Copy: C:\SLIDESHW\Images\SNSI01.CAT
+File Copy: C:\SLIDESHW\Images\SNSI02.CAT
+Made Dir: C:\SLIDESHW\Images\hubbleCD
+File Copy: C:\SLIDESHW\Images\hubbleCD\BMP.GNR
+File Copy: C:\SLIDESHW\Images\hubbleCD\GENERIC.REF
+File Copy: C:\SLIDESHW\Images\hubbleCD\HUBBLE.REF
+File Copy: C:\SLIDESHW\Images\hubbleCD\HUBBLE01.SNX
+File Copy: C:\SLIDESHW\Images\hubbleCD\HUBBLE02.SNX
+File Copy: C:\SLIDESHW\Images\hubbleCD\HUBBLE03.SNX
+File Copy: C:\SLIDESHW\Images\hubbleCD\HUBBLE04.SNX
+File Copy: C:\SLIDESHW\Images\hubbleCD\HUBBLE05.SNX
+File Copy: C:\SLIDESHW\Images\hubbleCD\HUBBLE06.SNX
+File Copy: C:\SLIDESHW\Images\hubbleCD\HUBBLE07.SNX
+File Copy: C:\SLIDESHW\Images\hubbleCD\HUBBLE08.SNX
+File Copy: C:\SLIDESHW\Images\hubbleCD\HUBBLE09.SNX
+File Copy: C:\SLIDESHW\Images\hubbleCD\HUBBLE10.SNX
+File Copy: C:\SLIDESHW\Images\hubbleCD\HUBBLE11.SNX
+File Copy: C:\SLIDESHW\Images\hubbleCD\HUBBLE12.SNX
+File Copy: C:\SLIDESHW\Images\hubbleCD\HUBBLE13.SNX
+File Copy: C:\SLIDESHW\Images\hubbleCD\HUBBLE14.SNX
+File Copy: C:\SLIDESHW\Images\hubbleCD\HUBBLE15.SNX
+File Copy: C:\SLIDESHW\Images\hubbleCD\HUBBLE16.SNX
+File Copy: C:\SLIDESHW\Images\hubbleCD\HUBBLE17.SNX
+File Copy: C:\SLIDESHW\Images\hubbleCD\HUBBLE18.SNX
+File Copy: C:\SLIDESHW\Images\hubbleCD\HUBBLE19.SNX
+File Copy: C:\SLIDESHW\Images\hubbleCD\HUBBLE20.SNX
+File Copy: C:\SLIDESHW\Images\hubbleCD\HUBBLE21.SNX
+File Copy: C:\SLIDESHW\Images\hubbleCD\HUBBLE22.SNX
+File Copy: C:\SLIDESHW\Images\hubbleCD\SNSI01.CAT
+File Copy: C:\SLIDESHW\Images\hubbleCD\SNSI02.CAT
+File Overwrite: C:\WINDOWS\Imgman31.dll
+File Overwrite: C:\WINDOWS\Snsplash.dll
+File Overwrite: C:\WINDOWS\Shadow.exe
+File Overwrite: C:\WINDOWS\Jiffmt.dll
+File Overwrite: C:\WINDOWS\Bmpfmt.dll
+File Overwrite: C:\WINDOWS\Alcimage.dll
+File Copy: C:\SLIDESHW\Adsnsi.ovl
+File Copy: C:\SLIDESHW\Adwalsvr.ad
+File Copy: C:\SLIDESHW\Catalog.txt
+File Copy: C:\SLIDESHW\Install.exe
+File Copy: C:\SLIDESHW\Install.inf
+File Copy: C:\SLIDESHW\Program.inf
+File Copy: C:\SLIDESHW\Puzzle.exe
+File Copy: C:\SLIDESHW\Reg31.exe
+File Copy: C:\SLIDESHW\Snlogo.jpg
+File Copy: C:\SLIDESHW\Snsiordr.ref
+File Copy: C:\SLIDESHW\Wallpapr.exe
+File Copy: C:\SLIDESHW\Wallpapr.hlp
+File Copy: C:\WINDOWS\Second Nature.BMP
+File Overwrite: C:\WINDOWS\Sns32.hlp
+File Overwrite: C:\WINDOWS\Im31bmp.dil
+File Overwrite: C:\WINDOWS\Im31jpg.dil
+File Overwrite: C:\WINDOWS\Slide Show 32-bit.scr
+Shell Link: C:\WINDOWS\Start Menu\Programs\Slide Show\Slide Show.lnk
+Shell Link: C:\WINDOWS\Start Menu\Programs\Slide Show\Picture Puzzle.lnk
+Shell Link: C:\WINDOWS\Start Menu\Programs\Slide Show\Second Nature Catalog.lnk
+Shell Link: C:\WINDOWS\Start Menu\Programs\Slide Show\Uninstall Slide Show.lnk
+RegDB Key: Control Panel\Desktop
+RegDB Val: 1
+RegDB Name: ScreenSaveActive
+RegDB Root: 1
+RegDB Old: 1
+RegDB Key: Control Panel\Desktop
+RegDB Val: C:\WINDOWS\Second Nature.BMP
+RegDB Name: Wallpaper
+RegDB Root: 1
+RegDB Old: (None)
+RegDB Key: Control Panel\Desktop
+RegDB Val: 60
+RegDB Name: ScreenSaveTimeOut
+RegDB Root: 1
+RegDB Old: 120
+INI File: C:\WINDOWS\SYSTEM.INI
+INI Sect: boot
+INI Item: SCRNSAVE.EXE
+INI Val: C:\WINDOWS\SLIDES~1.SCR
+INI Old: C:\WINDOWS\slides~1.scr
+INI File: C:\WINDOWS\SLIDESHW.INI
+INI Sect: WALLPAPR
+INI Item: Last Wallpaper
+INI Val: C:\WINDOWS\SECOND~1.BMP
+INI Old: (None)
+INI File: C:\WINDOWS\SLIDESHW.INI
+INI Sect: WALLPAPR
+INI Item: Wallpaper Image Directory
+INI Val: C:\SLIDESHW\IMAGES\hubbleCD\
+INI Old: C:\NATURE\IMAGES\CASAY\
+INI File: C:\WINDOWS\SLIDESHW.INI
+INI Sect: WALLPAPR
+INI Item: Wallpaper Image File
+INI Val: HUBBLE01.SNX
+INI Old: CASAY01.SNX
+INI File: C:\WINDOWS\SLIDESHW.INI
+INI Sect: WALLPAPR
+INI Item: Screen Saver Image Directory
+INI Val: C:\SLIDESHW\IMAGES\hubbleCD\
+INI Old: C:\NATURE\IMAGES\CASAY\
+INI File: C:\WINDOWS\SLIDESHW.INI
+INI Sect: WALLPAPR
+INI Item: Screen Saver Image File
+INI Val: HUBBLE01.SNX
+INI Old: CASAY13.SNX
+INI File: C:\WINDOWS\SLIDESHW.INI
+INI Sect: WALLPAPR
+INI Item: Wallpaper On
+INI Val: 1
+INI Old: 1
+INI File: C:\WINDOWS\SLIDESHW.INI
+INI Sect: WALLPAPR
+INI Item: Special Effect
+INI Val: 13
+INI Old: 13
+INI File: C:\WINDOWS\SLIDESHW.INI
+INI Sect: WALLPAPR
+INI Item: Screen Saver Delay
+INI Val: 10
+INI Old: 10
+INI File: C:\WINDOWS\SLIDESHW.INI
+INI Sect: WALLPAPR
+INI Item: Last Picture Store Auto-timed Month
+INI Val: 4
+INI Old: 11
+INI File: C:\WINDOWS\SLIDESHW.INI
+INI Sect: WALLPAPR
+INI Item: Cassette Strip X
+INI Val: 0
+INI Old: 0
+INI File: C:\WINDOWS\SLIDESHW.INI
+INI Sect: WALLPAPR
+INI Item: Cassette Strip Y
+INI Val: 56
+INI Old: 56
+INI File: C:\WINDOWS\SLIDESHW.INI
+INI Sect: WALLPAPR
+INI Item: Pause
+INI Val: 0
+INI Old: 0
+INI File: C:\WINDOWS\SLIDESHW.INI
+INI Sect: WALLPAPR
+INI Item: Tack
+INI Val: 0
+INI Old: 0
+INI File: C:\WINDOWS\SLIDESHW.INI
+INI Sect: WALLPAPR
+INI Item: Old X Res
+INI Val: 800
+INI Old: 800
+INI File: C:\WINDOWS\SLIDESHW.INI
+INI Sect: WALLPAPR
+INI Item: Old Y Res
+INI Val: 600
+INI Old: 600
+INI File: C:\WINDOWS\SLIDESHW.INI
+INI Sect: WALLPAPR
+INI Item: Old Num Sys Colors
+INI Val: 256
+INI Old: 16777216
+INI File: C:\WINDOWS\SLIDESHW.INI
+INI Sect: WALLPAPR
+INI Item: Image Type
+INI Val: 3
+INI Old: 3
+INI File: C:\WINDOWS\SLIDESHW.INI
+INI Sect: WALLPAPR
+INI Item: Special Effect Size
+INI Val: 8
+INI Old: 8
+INI File: C:\WINDOWS\SLIDESHW.INI
+INI Sect: WALLPAPR
+INI Item: Timer Delay
+INI Val: 1
+INI Old: 1
+INI File: C:\WINDOWS\SLIDESHW.INI
+INI Sect: WALLPAPR
+INI Item: Time Units
+INI Val: 3
+INI Old: 3
+INI File: C:\WINDOWS\SLIDESHW.INI
+INI Sect: WALLPAPR
+INI Item: Day
+INI Val: 3
+INI Old: 16
+INI File: C:\WINDOWS\SLIDESHW.INI
+INI Sect: WALLPAPR
+INI Item: Captions
+INI Val: 1
+INI Old: 1
+INI File: C:\WINDOWS\SLIDESHW.INI
+INI Sect: WALLPAPR
+INI Item: Hide Icon
+INI Val: 0
+INI Old: 0
+INI File: C:\WINDOWS\SLIDESHW.INI
+INI Sect: WALLPAPR
+INI Item: Display All
+INI Val: 0
+INI Old: 0
+INI File: C:\WINDOWS\SLIDESHW.INI
+INI Sect: WALLPAPR
+INI Item: Random
+INI Val: 1
+INI Old: 1
+INI File: C:\WINDOWS\SLIDESHW.INI
+INI Sect: WALLPAPR
+INI Item: Hotmouse
+INI Val: 0
+INI Old: 0
+INI File: C:\WINDOWS\SLIDESHW.INI
+INI Sect: WALLPAPR
+INI Item: Hotkey
+INI Val: 0
+INI Old: 0
+INI File: C:\WINDOWS\SLIDESHW.INI
+INI Sect: WALLPAPR
+INI Item: Hotkey Letter
+INI Val: 83
+INI Old: 83
+INI File: C:\WINDOWS\SLIDESHW.INI
+INI Sect: WALLPAPR
+INI Item: Synchronize Wallpaper
+INI Val: 1
+INI File: C:\WINDOWS\SLIDESHW.INI
+INI Sect: 2ndCollections
+INI Item: hubble
+INI Val: Through The Eye of Hubble, C:\SLIDESHW\IMAGES\hubbleCD
+INI File: C:\WINDOWS\SLIDESHW.INI
+INI Sect: Splash
+INI Item: Wallpaper Flags
+INI Val: 1
+INI Old: 1
+INI File: C:\WINDOWS\SLIDESHW.INI
+INI Sect: Introductory Series
+INI Item: Intro Displayed
+INI Val: 0
+INI Old: 0
+INI File: C:\WINDOWS\WIN.INI
+INI Sect: Alice
+INI Item: mod350
+INI Val: FEF
+INI Old: FFF
+INI File: C:\WINDOWS\WIN.INI
+INI Sect: 2NATURE
+INI Item: 2NATURE
+INI Val: C:\SLIDESHW
+INI Old: C:\NATURE

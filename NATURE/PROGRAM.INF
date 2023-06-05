@@ -1,0 +1,48 @@
+[Application] 
+AppName=Slide Show Installation
+Collection=Slide Show Software
+DefDir=C:\SLIDESHW
+SpaceNeeded=4000
+DefPMGroup=SLIDESHW.GRP, Slide Show
+
+[Disks] 
+1=Install Disk #1
+2=Images Disk #2
+
+[Dirs] 
+1=.
+2=CATALOG
+
+; Desc, Name, Dir #, Disk #, WinDir, LZFile
+[Files] 
+Slide Show Program, WALLPAPR.EX_, 1, 1, 0, Y
+Slide Show Help, WALLPAPR.HL_, 1, 1, 0, Y
+Slide Show Support EXE, SHADOW.EX_, 1, 1, 1, Y
+Slide Show Support DLL, SNSPLASH.DL_, 1, 1, 1, Y
+Slide Show Premimum EXE, PUZZLE.EX_, 1, 1, 0, Y
+Slide Show Registration EXE, REG31.EX_, 1, 1, 0, Y
+Slide Show Logo, SNLOGO.JPG, 1, 1, 0, N
+Slide Show Screen Saver, WALLSAVR.SC_, 1, 1, 1, Y
+Slide Show Screen Saver, SNS32.SC_, 1, 1, 1, Y
+Slide Show Screen Saver Help, SNS32.HL_, 1, 1, 1, Y
+After Dark Screen Saver Module, ADWALSVR.AD_, 1, 1, 0, Y
+After Dark Screen Saver Overlay, ADSNSI.OV_, 1, 1, 0, Y
+Image Decompression DLL, ALCIMAGE.DL_, 1, 1, 1, Y
+Image Decompression DLL, IMGMAN31.DL_, 1, 1, 1, Y
+Bitmap Format DLL, BMPFMT.DL_, 1, 1, 1, Y
+Bitmap Format DLL, IM31BMP.DI_, 1, 1, 1, Y
+JPEG Format DLL, JIFFMT.DL_, 1, 1, 1, Y
+JPEG Format DLL, IM31JPG.DI_, 1, 1, 1, Y
+Catalog Listing, CATALOG.TXT, 1, 1, 0, N
+3D-Control DLL, CTL3DV2.DL_, 1, 1, 1, Y
+Uninstall Information File, PROGRAM.INF, 1, 1, 0, N
+Install EXE, INSTALL.EXE, 1, 1, 0, N
+Second Nature Order Reference, SNSIORDR.REF, 1, 1, 0, N
+
+; Directory #, Command line, Description
+[PM Info] 
+1, WALLPAPR.EXE, Slide Show
+1, INSTALL.EXE /U, Uninstall Slide Show
+1, PUZZLE.EXE, Picture Puzzle
+
+[End]

@@ -1,0 +1,10 @@
+-ERROR-(404):  no such file or directory
+Requested method: GET
+Requested URL:    /www/phil_http/lemmons/sail_sea
+HTTP protocol:    HTTP/1.0
+
+-------- additional request headers --------
+Connection: Keep-Alive
+User-Agent: Mozilla/3.03Gold (Win95; I)
+Host: www.stthomas.edu
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, */*

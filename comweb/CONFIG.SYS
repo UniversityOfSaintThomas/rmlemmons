@@ -1,0 +1,37 @@
+REM [Header] 
+FILES=20
+BUFFERS=20
+DOS=HIGH,UMB
+
+                                
+                                        
+                                                  
+                                
+
+REM [SCSI Controllers]  
+
+REM DEVICE=SCSI.SYS
+
+REM [CD-ROM Drive]      
+
+REM DEVICE=C:\CDROM\NEC_BM.SYS /D:MSCD001 /PIO
+
+REM [Display]   
+
+REM DEVICE=DISPLAY.SYS
+
+REM [Sound, MIDI, or Video Capture Card]        
+
+REM DEVICE=SOUND.SYS
+
+REM [Mouse]     
+
+REM DEVICE=MOUSE.SYS
+
+REM ------------------
+
+REM [Miscellaneous]     
+
+REM DEVICE=SMARTDRV.EXE
+device=c:\windows\cwbinit.exe /A
+
